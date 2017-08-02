@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ListacortadoresPage } from '../listacortadores/listacortadores';
+
 
 /**
  * Generated class for the EmpleadosPage page.
@@ -22,4 +24,9 @@ export class EmpleadosPage {
     console.log('ionViewDidLoad EmpleadosPage');
   }
 
+
+openListacortadoresPage(){
+
+  	this.navCtrl.push(ListacortadoresPage);
+  }
 }

@@ -9,6 +9,7 @@ import { ComprasPage } from '../pages/compras/compras';
 import { VentasPage } from '../pages/ventas/ventas';
 import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
+import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
 
 @Component({
   templateUrl: 'app.html'

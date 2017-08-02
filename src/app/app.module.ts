@@ -9,6 +9,7 @@ import { ComprasPage } from '../pages/compras/compras';
 import { VentasPage } from '../pages/ventas/ventas';
 import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
+import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -22,7 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ComprasPage,
     VentasPage,
     EmpleadosPage,
-    BodegaPage
+    BodegaPage,
+    ListacortadoresPage
 
   ],
   imports: [
@@ -37,7 +39,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ComprasPage,
     VentasPage,
     EmpleadosPage,
-    BodegaPage
+    BodegaPage,
+    ListacortadoresPage
     
   ],
   providers: [
