@@ -10,6 +10,7 @@ import { VentasPage } from '../pages/ventas/ventas';
 import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
 import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
+import { EmpleadocortadorPage } from '../pages/empleadocortador/empleadocortador';
 
 @Component({
   templateUrl: 'app.html'
