@@ -1,14 +1,25 @@
 webpackJsonp([2],{
 
+<<<<<<< HEAD
 /***/ 269:
+=======
+/***/ 271:
+>>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VentasPageModule", function() { return VentasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ventas__ = __webpack_require__(99);
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListacortadoresPageModule", function() { return ListacortadoresPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacortadores__ = __webpack_require__(101);
+>>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,6 +29,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+<<<<<<< HEAD
 var VentasPageModule = (function () {
     function VentasPageModule() {
     }
@@ -35,6 +47,25 @@ VentasPageModule = __decorate([
 ], VentasPageModule);
 
 //# sourceMappingURL=ventas.module.js.map
+=======
+var ListacortadoresPageModule = (function () {
+    function ListacortadoresPageModule() {
+    }
+    return ListacortadoresPageModule;
+}());
+ListacortadoresPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__listacortadores__["a" /* ListacortadoresPage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listacortadores__["a" /* ListacortadoresPage */]),
+        ],
+    })
+], ListacortadoresPageModule);
+
+//# sourceMappingURL=listacortadores.module.js.map
+>>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 
 /***/ })
 
