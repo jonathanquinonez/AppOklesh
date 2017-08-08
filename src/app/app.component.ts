@@ -11,6 +11,8 @@ import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
 import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
 import { EmpleadocortadorPage } from '../pages/empleadocortador/empleadocortador';
+import { EditarcortadorPage } from '../pages/editarcortador/editarcortador';
+import { EliminarcortadorPage } from '../pages/eliminarcortador/eliminarcortador';
 
 @Component({
   templateUrl: 'app.html'

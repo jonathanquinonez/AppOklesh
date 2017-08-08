@@ -11,6 +11,8 @@ import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
 import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
 import { EmpleadocortadorPage } from '../pages/empleadocortador/empleadocortador';
+import { EditarcortadorPage } from '../pages/editarcortador/editarcortador';
+import { EliminarcortadorPage } from '../pages/eliminarcortador/eliminarcortador';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -26,7 +28,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EmpleadosPage,
     BodegaPage,
     ListacortadoresPage,
-    EmpleadocortadorPage
+    EmpleadocortadorPage,
+    EditarcortadorPage,
+    EliminarcortadorPage
 
   ],
   imports: [
@@ -43,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EmpleadosPage,
     BodegaPage,
     ListacortadoresPage,
-    EmpleadocortadorPage
+    EmpleadocortadorPage,
+    EditarcortadorPage,
+    EliminarcortadorPage
 
     
   ],
