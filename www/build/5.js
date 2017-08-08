@@ -1,22 +1,14 @@
 webpackJsonp([5],{
 
-<<<<<<< HEAD
-/***/ 272:
-=======
-/***/ 268:
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
+/***/ 273:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmpleadosPageModule", function() { return EmpleadosPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EliminarcortadorPageModule", function() { return EliminarcortadorPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__empleados__ = __webpack_require__(102);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__compras__ = __webpack_require__(98);
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eliminarcortador__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -26,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var EmpleadosPageModule = (function () {
-    function EmpleadosPageModule() {
+var EliminarcortadorPageModule = (function () {
+    function EliminarcortadorPageModule() {
     }
-    return EmpleadosPageModule;
+    return EliminarcortadorPageModule;
 }());
-EmpleadosPageModule = __decorate([
+EliminarcortadorPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__empleados__["a" /* EmpleadosPage */],
+            __WEBPACK_IMPORTED_MODULE_2__eliminarcortador__["a" /* EliminarcortadorPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__empleados__["a" /* EmpleadosPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__eliminarcortador__["a" /* EliminarcortadorPage */]),
         ],
     })
-], EmpleadosPageModule);
+], EliminarcortadorPageModule);
 
-//# sourceMappingURL=empleados.module.js.map
+//# sourceMappingURL=eliminarcortador.module.js.map
 
 /***/ })
 

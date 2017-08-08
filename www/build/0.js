@@ -1,25 +1,14 @@
 webpackJsonp([0],{
 
-<<<<<<< HEAD
-/***/ 276:
-=======
-/***/ 269:
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
+/***/ 271:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EliminarcortadorPageModule", function() { return EliminarcortadorPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__eliminarcortador__ = __webpack_require__(278);
-=======
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VentasPageModule", function() { return VentasPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ventas__ = __webpack_require__(99);
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -29,25 +18,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var EliminarcortadorPageModule = (function () {
-    function EliminarcortadorPageModule() {
-    }
-    return EliminarcortadorPageModule;
-}());
-EliminarcortadorPageModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__eliminarcortador__["a" /* EliminarcortadorPage */],
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__eliminarcortador__["a" /* EliminarcortadorPage */]),
-        ],
-    })
-], EliminarcortadorPageModule);
-
-//# sourceMappingURL=eliminarcortador.module.js.map
-=======
 var VentasPageModule = (function () {
     function VentasPageModule() {
     }
@@ -65,7 +35,6 @@ VentasPageModule = __decorate([
 ], VentasPageModule);
 
 //# sourceMappingURL=ventas.module.js.map
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 
 /***/ })
 

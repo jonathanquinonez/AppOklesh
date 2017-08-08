@@ -1,25 +1,14 @@
 webpackJsonp([1],{
 
-<<<<<<< HEAD
-/***/ 275:
-=======
-/***/ 274:
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-<<<<<<< HEAD
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditarcortadorPageModule", function() { return EditarcortadorPageModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcortador__ = __webpack_require__(277);
-=======
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuprincipaPageModule", function() { return MenuprincipaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa__ = __webpack_require__(104);
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -29,25 +18,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-<<<<<<< HEAD
-var EditarcortadorPageModule = (function () {
-    function EditarcortadorPageModule() {
-    }
-    return EditarcortadorPageModule;
-}());
-EditarcortadorPageModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
-        declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__editarcortador__["a" /* EditarcortadorPage */],
-        ],
-        imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__editarcortador__["a" /* EditarcortadorPage */]),
-        ],
-    })
-], EditarcortadorPageModule);
-
-//# sourceMappingURL=editarcortador.module.js.map
-=======
 var MenuprincipaPageModule = (function () {
     function MenuprincipaPageModule() {
     }
@@ -65,7 +35,6 @@ MenuprincipaPageModule = __decorate([
 ], MenuprincipaPageModule);
 
 //# sourceMappingURL=menuprincipa.module.js.map
->>>>>>> d1f41a1d88d25c16008364d61328f761c1d424c7
 
 /***/ })
 
