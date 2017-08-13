@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {ArticuloPage} from '../articulo/articulo';
+import {CategoriaPage} from '../categoria/categoria';
+
 
 /**
  * Generated class for the ComprasPage page.
@@ -21,5 +24,17 @@ export class ComprasPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ComprasPage');
   }
+
+  openArticuloPage(){
+
+  	this.navCtrl.push(ArticuloPage);
+  }
+
+  openCategoriaPage(){
+
+    this.navCtrl.push(CategoriaPage);
+  }
+
+
 
 }

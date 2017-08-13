@@ -1,0 +1,48 @@
+<!--
+  Generated template for the CrearcategoriaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>crearcategoria</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="ion-content" padding>
+
+<form [formGroup]="myForm" (ngSubmit)="saveData()">
+      
+<div class="sesion">
+<fieldset >
+        <h1> Crear Articulo </h1>  
+                  <ion-list>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Nombre Categoria:</ion-label>
+                          <ion-input formControlName="name" type="text" placeholder="Nombre"></ion-input>
+                        </ion-item> 
+                        <br>
+
+                        
+ 
+               
+                  </ion-list>
+
+        <!--<button ion-button button-positive (click)="openMenuprincipaPage()">Iniciar  Sesión</button>-->
+
+        <div padding>
+      <button ion-button block type="submit" [disabled]="!myForm.valid"   (click)="showAlert()">Guardar</button>
+    </div>
+</fieldset>
+</div>       
+
+
+</form>
+</ion-content>

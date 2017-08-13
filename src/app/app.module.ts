@@ -11,6 +11,15 @@ import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
 import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
 import { EmpleadocortadorPage } from '../pages/empleadocortador/empleadocortador';
+import { EditarcortadorPage } from '../pages/editarcortador/editarcortador';
+import { EliminarcortadorPage } from '../pages/eliminarcortador/eliminarcortador';
+import {ArticuloPage} from '../pages/articulo/articulo';
+import {ListaarticuloPage} from '../pages/listaarticulo/listaarticulo';
+import {ArticulomodificarPage} from '../pages/articulomodificar/articulomodificar';
+import {EditararticuloPage} from '../pages/editararticulo/editararticulo';
+import {CreararticuloPage} from '../pages/creararticulo/creararticulo';
+import {CategoriaPage} from '../pages/categoria/categoria';
+import {CrearcategoriaPage} from '../pages/crearcategoria/crearcategoria';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -26,7 +35,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EmpleadosPage,
     BodegaPage,
     ListacortadoresPage,
-    EmpleadocortadorPage
+    EmpleadocortadorPage,
+    EditarcortadorPage,
+    EliminarcortadorPage,
+    ArticuloPage,
+    ListaarticuloPage,
+    ArticulomodificarPage,
+    EditararticuloPage,
+    CreararticuloPage,
+    CategoriaPage,
+    CrearcategoriaPage
 
   ],
   imports: [
@@ -43,7 +61,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EmpleadosPage,
     BodegaPage,
     ListacortadoresPage,
-    EmpleadocortadorPage
+    EmpleadocortadorPage,
+    EditarcortadorPage,
+    EliminarcortadorPage,
+    ArticuloPage,
+    ListaarticuloPage,
+    ArticulomodificarPage,
+    EditararticuloPage,
+    CreararticuloPage,
+    CategoriaPage,
+    CrearcategoriaPage
 
     
   ],
