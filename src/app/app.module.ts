@@ -20,6 +20,9 @@ import {EditararticuloPage} from '../pages/editararticulo/editararticulo';
 import {CreararticuloPage} from '../pages/creararticulo/creararticulo';
 import {CategoriaPage} from '../pages/categoria/categoria';
 import {CrearcategoriaPage} from '../pages/crearcategoria/crearcategoria';
+import {ListacategoriaPage} from '../pages/listacategoria/listacategoria';
+import {EditarcategoriaPage} from '../pages/editarcategoria/editarcategoria';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -44,7 +47,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EditararticuloPage,
     CreararticuloPage,
     CategoriaPage,
-    CrearcategoriaPage
+    CrearcategoriaPage,
+    ListacategoriaPage,
+    EditarcategoriaPage
+ 
 
   ],
   imports: [
@@ -70,7 +76,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EditararticuloPage,
     CreararticuloPage,
     CategoriaPage,
-    CrearcategoriaPage
+    CrearcategoriaPage,
+    ListacategoriaPage,
+    EditarcategoriaPage
+   
 
     
   ],

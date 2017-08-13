@@ -107,10 +107,10 @@
                
                   </ion-list>
 
-        <!--<button ion-button button-positive (click)="openMenuprincipaPage()">Iniciar  Sesión</button>-->
+      
 
         <div padding>
-      <button ion-button block type="submit" [disabled]="!myForm.valid">Guardar</button>
+      <button ion-button block type="submit" [disabled]="!myForm.valid"  (click)="showConfirm()">Guardar</button>
     </div>
 </fieldset>
 </div>       
