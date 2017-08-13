@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ArticuloPage} from '../articulo/articulo';
 import {CategoriaPage} from '../categoria/categoria';
+import {ListainventarioPage} from '../listainventario/listainventario';
 
 
 /**
@@ -34,6 +35,14 @@ export class ComprasPage {
 
     this.navCtrl.push(CategoriaPage);
   }
+
+
+  openListainventarioPage(){
+
+    this.navCtrl.push(ListainventarioPage);
+  }
+
+
 
 
 

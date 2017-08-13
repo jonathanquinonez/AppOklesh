@@ -1,14 +1,14 @@
 webpackJsonp([13],{
 
-/***/ 288:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComprasPageModule", function() { return ComprasPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreararticuloPageModule", function() { return CreararticuloPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__compras__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__creararticulo__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ComprasPageModule = (function () {
-    function ComprasPageModule() {
+var CreararticuloPageModule = (function () {
+    function CreararticuloPageModule() {
     }
-    return ComprasPageModule;
+    return CreararticuloPageModule;
 }());
-ComprasPageModule = __decorate([
+CreararticuloPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__compras__["a" /* ComprasPage */],
+            __WEBPACK_IMPORTED_MODULE_2__creararticulo__["a" /* CreararticuloPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__compras__["a" /* ComprasPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__creararticulo__["a" /* CreararticuloPage */]),
         ],
+        exports: [
+            __WEBPACK_IMPORTED_MODULE_2__creararticulo__["a" /* CreararticuloPage */]
+        ]
     })
-], ComprasPageModule);
+], CreararticuloPageModule);
 
-//# sourceMappingURL=compras.module.js.map
+//# sourceMappingURL=creararticulo.module.js.map
 
 /***/ })
 

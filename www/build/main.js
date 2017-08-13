@@ -1,6 +1,6 @@
 webpackJsonp([19],{
 
-/***/ 102:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81,15 +81,14 @@ EditararticuloPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-editararticulo',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editararticulo\editararticulo.html"*/'<!--\n\n  Generated template for the EditararticuloPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editararticulo</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n\n\n<form [formGroup]="myForm" (ngSubmit)="saveData()">\n\n      \n\n<div class="sesion">\n\n<fieldset >\n\n        <h1> Modificar Articulo </h1>  \n\n                  <ion-list>\n\n\n\n                        <ion-item>\n\n                          <ion-icon name="md-analytics" item-left></ion-icon>\n\n                          <ion-label stacked>Nombre Articulo:</ion-label>\n\n                          <ion-input formControlName="name" type="text" placeholder="Nombre" value="Suela"></ion-input>\n\n                        </ion-item> \n\n                        <br>\n\n\n\n                        <ion-item>\n\n                          <ion-icon name="log-out" item-left></ion-icon>\n\n                          <ion-label stacked>Cantidad:</ion-label>\n\n                          <ion-input formControlName="cantidad" type="number" placeholder="Cantidad" value="20"></ion-input>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        \n\n\n\n                        <ion-item>\n\n                         <ion-icon name="arrow-dropdown" item-left></ion-icon>\n\n                         <ion-label stacked>Unidades de medida:<br>\n\n                         <select class="selectt" >\n\n                          <option>Gr</option>\n\n                          <option selected>Kg</option>\n\n                          <option>Lb</option>\n\n                         </select>\n\n                         </ion-label>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        <ion-item>\n\n                         <ion-icon name="arrow-dropdown" item-left></ion-icon>\n\n                         <ion-label stacked>Proveedor:<br>\n\n                         <select class="selectt" >\n\n                          <option>Gonzalo Jaimes</option>\n\n                          <option selected>Maryuri Tatiana</option>\n\n                          <option>Laura Rocio</option>\n\n                          <option>Luis Quintero</option>\n\n                          <option>Heivar Villamiza</option>\n\n                          <option>Carolina Vargas</option>\n\n                          <option>Aide Sepulveda</option>\n\n                          <option>Jhon Jairo</option>\n\n                         </select>\n\n                         </ion-label>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        <ion-item>\n\n                          <ion-icon name="log-out" item-left></ion-icon>\n\n                          <ion-label stacked>Compra:</ion-label>\n\n                          <ion-input formControlName="compra" type="number" placeholder="Compra" value="200000"></ion-input>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        <ion-item>\n\n                         <ion-icon name="arrow-dropdown" item-left></ion-icon>\n\n                         <ion-label stacked>Categoria:<br>\n\n                         <select class="selectt" >\n\n                          <option selected>Materia Prima</option>\n\n                          <option >Pegantes</option>\n\n                          <option>Zapato</option>\n\n                         </select>\n\n                         </ion-label>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        <ion-item>\n\n                         <ion-icon name="arrow-dropdown" item-left></ion-icon>\n\n                         <ion-label stacked>Tipo de Producto:<br>\n\n                         <select class="selectt" >\n\n                          <option selected>Comprado</option>\n\n                          <option>Producido</option>\n\n                         </select>\n\n                         </ion-label>\n\n                        </ion-item>\n\n                        <br>\n\n\n\n                        <ion-item>\n\n                          <ion-icon name="md-analytics" item-left></ion-icon>\n\n                          <ion-label stacked>Descripcion:</ion-label>\n\n                          <ion-input type="text" placeholder="Descripcion"></ion-input>\n\n                        </ion-item> \n\n                        <br>\n\n \n\n               \n\n                  </ion-list>\n\n\n\n      \n\n\n\n        <div padding>\n\n      <button ion-button block type="submit" [disabled]="!myForm.valid"  (click)="showConfirm()">Guardar</button>\n\n    </div>\n\n</fieldset>\n\n</div>       \n\n\n\n\n\n</form>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editararticulo\editararticulo.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
 ], EditararticuloPage);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=editararticulo.js.map
 
 /***/ }),
 
-/***/ 103:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -168,7 +167,7 @@ CreararticuloPage = __decorate([
 
 /***/ }),
 
-/***/ 104:
+/***/ 105:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -245,14 +244,15 @@ CrearcategoriaPage = __decorate([
 
 /***/ }),
 
-/***/ 105:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListacategoriaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditarcategoriaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcategoria_editarcategoria__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__ = __webpack_require__(53);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -266,62 +266,67 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
- * Generated class for the ListacategoriaPage page.
+ * Generated class for the EditarcategoriaPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var ListacategoriaPage = ListacategoriaPage_1 = (function () {
-    function ListacategoriaPage(navCtrl, navParams, alertCtrl) {
+var EditarcategoriaPage = (function () {
+    function EditarcategoriaPage(navCtrl, navParams, formBuilder, alertCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.formBuilder = formBuilder;
         this.alertCtrl = alertCtrl;
-        this.materia = '../assets/img/materiaprima.jpg';
-        this.pegante = '../assets/img/pegante.jpg';
-        this.zapatos = '../assets/img/zapatos.jpg';
+        this.myForm = this.createMyForm();
     }
-    ListacategoriaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ListacategoriaPage');
+    EditarcategoriaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EditarcategoriaPage');
     };
-    ListacategoriaPage.prototype.openEditarcategoriaPage = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */]);
+    EditarcategoriaPage.prototype.saveData = function () {
+        console.log(this.myForm.value);
     };
-    ListacategoriaPage.prototype.showConfirm = function () {
+    EditarcategoriaPage.prototype.createMyForm = function () {
+        return this.formBuilder.group({
+            name: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+        });
+    };
+    EditarcategoriaPage.prototype.showConfirm = function () {
         var _this = this;
         var confirm = this.alertCtrl.create({
-            title: 'Eliminar Categoria',
-            message: 'Esta de acuerdo en eliminar esta categoria',
+            title: 'Modificar Categoria',
+            message: 'Esta de acuerdo en modificar esta categoria',
             buttons: [
                 {
                     text: 'No',
                     handler: function () {
                         console.log('No Haga click aqui');
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__["a" /* ListacategoriaPage */]);
                     }
                 },
                 {
                     text: 'Si',
                     handler: function () {
                         console.log('Si haga click aqui');
-                        _this.navCtrl.push(ListacategoriaPage_1);
+                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__["a" /* ListacategoriaPage */]);
                     }
                 }
             ]
         });
         confirm.present();
     };
-    return ListacategoriaPage;
+    return EditarcategoriaPage;
 }());
-ListacategoriaPage = ListacategoriaPage_1 = __decorate([
+EditarcategoriaPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-listacategoria',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacategoria\listacategoria.html"*/'<!--\n\n  Generated template for the ListacategoriaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>listacategoria</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1>Lista Categorias</h1>\n\n					<div>\n\n\n\n					<ion-searchbar> </ion-searchbar>\n\n				  	<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{materia}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Materia Prima</h3>\n\n				      <button ion-button clear  (click)="openEditarcategoriaPage()">Modificar</button>\n\n				      <button ion-button clear item-end (click)="showConfirm()">Eliminar</button>\n\n				      \n\n					</ion-item>\n\n\n\n				   </div>	\n\n				</ion-list>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacategoria\listacategoria.html"*/,
+        selector: 'page-editarcategoria',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcategoria\editarcategoria.html"*/'<!--\n\n  Generated template for the EditarcategoriaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editarcategoria</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n\n\n<form [formGroup]="myForm" (ngSubmit)="saveData()">\n\n      \n\n<div class="sesion">\n\n<fieldset >\n\n        <h1> Modificar Categoria </h1>  \n\n                  <ion-list>\n\n\n\n                        <ion-item>\n\n\n\n                          <ion-icon name="md-analytics" item-left></ion-icon>\n\n                          <ion-label stacked>Nombre Categoria:</ion-label>\n\n                          <ion-input formControlName="name" type="text" placeholder="Nombre" value="Materia Prima"></ion-input>\n\n                        </ion-item> \n\n                        <br>\n\n\n\n                        \n\n \n\n               \n\n                  </ion-list>\n\n\n\n   \n\n\n\n        <div padding>\n\n      <button ion-button block type="submit" [disabled]="!myForm.valid"   (click)="showConfirm()">Guardar</button>\n\n    </div>\n\n</fieldset>\n\n</div>       \n\n\n\n\n\n</form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcategoria\editarcategoria.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object])
-], ListacategoriaPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], EditarcategoriaPage);
 
-var ListacategoriaPage_1, _a, _b, _c;
-//# sourceMappingURL=listacategoria.js.map
+//# sourceMappingURL=editarcategoria.js.map
 
 /***/ }),
 
@@ -334,6 +339,7 @@ var ListacategoriaPage_1, _a, _b, _c;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__articulo_articulo__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__categoria_categoria__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__listainventario_listainventario__ = __webpack_require__(298);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -343,6 +349,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -367,12 +374,15 @@ var ComprasPage = (function () {
     ComprasPage.prototype.openCategoriaPage = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__categoria_categoria__["a" /* CategoriaPage */]);
     };
+    ComprasPage.prototype.openListainventarioPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__listainventario_listainventario__["a" /* ListainventarioPage */]);
+    };
     return ComprasPage;
 }());
 ComprasPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-compras',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\compras\compras.html"*/'<!--\n\n  Generated template for the ComprasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>compras</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n	<div class="div">\n\n			<h1>Compras</h1>\n\n				<div>\n\n				<div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="openArticuloPage()">Articulo</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive (click)="openCategoriaPage()">Categorias</button>\n\n			    </div>    \n\n			    <br>\n\n			    <div>\n\n			        <button class="botonmenu" ion-button button-positive>Inventario</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive>Proveedores</button>\n\n			    </div>  \n\n			    </div>  \n\n			</div>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\compras\compras.html"*/,
+        selector: 'page-compras',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\compras\compras.html"*/'<!--\n\n  Generated template for the ComprasPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>compras</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n	<div class="div">\n\n			<h1>Compras</h1>\n\n				<div>\n\n				<div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="openArticuloPage()">Articulo</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive (click)="openCategoriaPage()">Categorias</button>\n\n			    </div>    \n\n			    <br>\n\n			    <div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="openListainventarioPage()">Inventario</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive>Proveedores</button>\n\n			    </div>  \n\n			    </div>  \n\n			</div>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\compras\compras.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
 ], ComprasPage);
@@ -816,75 +826,79 @@ webpackEmptyAsyncContext.id = 124;
 var map = {
 	"../pages/articulo/articulo.module": [
 		283,
-		38
+		18
 	],
 	"../pages/articulomodificar/articulomodificar.module": [
 		280,
-		37
+		17
 	],
 	"../pages/bodega/bodega.module": [
 		295,
-		36
+		16
 	],
 	"../pages/categoria/categoria.module": [
 		287,
-		35
+		15
 	],
 	"../pages/compras/compras.module": [
 		288,
-		34
+		14
 	],
 	"../pages/creararticulo/creararticulo.module": [
 		282,
-		33
+		13
 	],
 	"../pages/crearcategoria/crearcategoria.module": [
 		284,
-		32
+		12
 	],
 	"../pages/editararticulo/editararticulo.module": [
 		279,
-		31
+		11
 	],
 	"../pages/editarcategoria/editarcategoria.module": [
-		297,
-		21
+		285,
+		10
 	],
 	"../pages/editarcortador/editarcortador.module": [
 		290,
-		30
+		9
 	],
 	"../pages/eliminarcortador/eliminarcortador.module": [
 		291,
-		29
+		8
 	],
 	"../pages/empleadocortador/empleadocortador.module": [
 		292,
-		28
+		7
 	],
 	"../pages/empleados/empleados.module": [
 		294,
-		27
+		6
 	],
 	"../pages/listaarticulo/listaarticulo.module": [
 		281,
-		26
+		5
 	],
 	"../pages/listacategoria/listacategoria.module": [
 		286,
-		25
+		4
 	],
 	"../pages/listacortadores/listacortadores.module": [
 		293,
-		24
+		3
+	],
+	"../pages/listainventario/listainventario.module": [
+		297,
+		0
 	],
 	"../pages/menuprincipa/menuprincipa.module": [
 		296,
-		23
+		2
 	],
 	"../pages/ventas/ventas.module": [
 		289,
-		22
+		1
 	]
 };
 function webpackAsyncContext(req) {
@@ -979,20 +993,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_articulo_articulo__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_listaarticulo_listaarticulo__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_articulomodificar_articulomodificar__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_editararticulo_editararticulo__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_creararticulo_creararticulo__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_editararticulo_editararticulo__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_creararticulo_creararticulo__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__ = __webpack_require__(298);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_status_bar__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_splash_screen__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_status_bar__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_splash_screen__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1045,7 +1061,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__["a" /* CategoriaPage */],
             __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
             __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */]
+            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__["a" /* ListainventarioPage */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1057,6 +1074,7 @@ AppModule = __decorate([
                     { loadChildren: '../pages/creararticulo/creararticulo.module#CreararticuloPageModule', name: 'CreararticuloPage', segment: 'creararticulo', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/articulo/articulo.module#ArticuloPageModule', name: 'ArticuloPage', segment: 'articulo', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/crearcategoria/crearcategoria.module#CrearcategoriaPageModule', name: 'CrearcategoriaPage', segment: 'crearcategoria', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/editarcategoria/editarcategoria.module#EditarcategoriaPageModule', name: 'EditarcategoriaPage', segment: 'editarcategoria', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/listacategoria/listacategoria.module#ListacategoriaPageModule', name: 'ListacategoriaPage', segment: 'listacategoria', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/categoria/categoria.module#CategoriaPageModule', name: 'CategoriaPage', segment: 'categoria', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/compras/compras.module#ComprasPageModule', name: 'ComprasPage', segment: 'compras', priority: 'low', defaultHistory: [] },
@@ -1068,7 +1086,7 @@ AppModule = __decorate([
                     { loadChildren: '../pages/empleados/empleados.module#EmpleadosPageModule', name: 'EmpleadosPage', segment: 'empleados', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/bodega/bodega.module#BodegaPageModule', name: 'BodegaPage', segment: 'bodega', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/menuprincipa/menuprincipa.module#MenuprincipaPageModule', name: 'MenuprincipaPage', segment: 'menuprincipa', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/editarcategoria/editarcategoria.module#EditarcategoriaPageModule', name: 'EditarcategoriaPage', segment: 'editarcategoria', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/listainventario/listainventario.module#ListainventarioPageModule', name: 'ListainventarioPage', segment: 'listainventario', priority: 'low', defaultHistory: [] }
                 ]
             }),
         ],
@@ -1093,11 +1111,12 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__["a" /* CategoriaPage */],
             __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
             __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */]
+            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__["a" /* ListainventarioPage */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_23__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_24__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_24__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_25__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
         ]
     })
@@ -1161,15 +1180,14 @@ var MyApp = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]) === "function" && _a || Object)
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
 
-var _a, _b, _c, _d;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -1178,11 +1196,9 @@ var _a, _b, _c, _d;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditarcategoriaPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListainventarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1194,70 +1210,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-
-
 /**
- * Generated class for the EditarcategoriaPage page.
+ * Generated class for the ListainventarioPage page.
  *
  * See http://ionicframework.com/docs/components/#navigation for more info
  * on Ionic pages and navigation.
  */
-var EditarcategoriaPage = (function () {
-    function EditarcategoriaPage(navCtrl, navParams, formBuilder, alertCtrl) {
+var ListainventarioPage = (function () {
+    function ListainventarioPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.formBuilder = formBuilder;
-        this.alertCtrl = alertCtrl;
-        this.myForm = this.createMyForm();
     }
-    EditarcategoriaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EditarcategoriaPage');
+    ListainventarioPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ListainventarioPage');
     };
-    EditarcategoriaPage.prototype.saveData = function () {
-        console.log(this.myForm.value);
-    };
-    EditarcategoriaPage.prototype.createMyForm = function () {
-        return this.formBuilder.group({
-            name: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-        });
-    };
-    EditarcategoriaPage.prototype.showConfirm = function () {
-        var _this = this;
-        var confirm = this.alertCtrl.create({
-            title: 'Modificar Categoria',
-            message: 'Esta de acuerdo en modificar esta categoria',
-            buttons: [
-                {
-                    text: 'No',
-                    handler: function () {
-                        console.log('No Haga click aqui');
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__["a" /* ListacategoriaPage */]);
-                    }
-                },
-                {
-                    text: 'Si',
-                    handler: function () {
-                        console.log('Si haga click aqui');
-                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__["a" /* ListacategoriaPage */]);
-                    }
-                }
-            ]
-        });
-        confirm.present();
-    };
-    return EditarcategoriaPage;
+    return ListainventarioPage;
 }());
-EditarcategoriaPage = __decorate([
+ListainventarioPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-editarcategoria',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcategoria\editarcategoria.html"*/'<!--\n\n  Generated template for the EditarcategoriaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editarcategoria</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n\n\n<form [formGroup]="myForm" (ngSubmit)="saveData()">\n\n      \n\n<div class="sesion">\n\n<fieldset >\n\n        <h1> Modificar Categoria </h1>  \n\n                  <ion-list>\n\n\n\n                        <ion-item>\n\n\n\n                          <ion-icon name="md-analytics" item-left></ion-icon>\n\n                          <ion-label stacked>Nombre Categoria:</ion-label>\n\n                          <ion-input formControlName="name" type="text" placeholder="Nombre" value="Materia Prima"></ion-input>\n\n                        </ion-item> \n\n                        <br>\n\n\n\n                        \n\n \n\n               \n\n                  </ion-list>\n\n\n\n   \n\n\n\n        <div padding>\n\n      <button ion-button block type="submit" [disabled]="!myForm.valid"   (click)="showConfirm()">Guardar</button>\n\n    </div>\n\n</fieldset>\n\n</div>       \n\n\n\n\n\n</form>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcategoria\editarcategoria.html"*/,
+        selector: 'page-listainventario',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listainventario\listainventario.html"*/'<!--\n\n  Generated template for the ListainventarioPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>listainventario</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1>Inventario Actual</h1>\n\n					<div>\n\n				  	<ion-item >\n\n				  	  \n\n				  	  <h2>Codigo:   10</h2>\n\n				      <h3>Nombre:   Materia Prima</h3>\n\n				      <h4>Cantidad: 14</h4>\n\n				      \n\n				      \n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  \n\n				  	  <h2>Codigo:   11</h2>\n\n				      <h3>Nombre:   Pegante</h3>\n\n				      <h4>Cantidad: 10 L</h4>\n\n				      \n\n				      \n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  \n\n				  	  <h2>Codigo:   12</h2>\n\n				      <h3>Nombre:   Zapatos</h3>\n\n				      <h4>Cantidad: 12 P</h4>\n\n				      \n\n				      \n\n					</ion-item>\n\n\n\n				   </div>	\n\n				</ion-list>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listainventario\listainventario.html"*/,
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _d || Object])
-], EditarcategoriaPage);
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], ListainventarioPage);
 
-var _a, _b, _c, _d;
-//# sourceMappingURL=editarcategoria.js.map
+//# sourceMappingURL=listainventario.js.map
 
 /***/ }),
 
@@ -1268,7 +1245,7 @@ var _a, _b, _c, _d;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArticulomodificarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editararticulo_editararticulo__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editararticulo_editararticulo__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listaarticulo_listaarticulo__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1405,7 +1382,7 @@ ListaarticuloPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listaarticulo_listaarticulo__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__creararticulo_creararticulo__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__creararticulo_creararticulo__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1460,8 +1437,8 @@ ArticuloPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoriaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__crearcategoria_crearcategoria__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__crearcategoria_crearcategoria__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__listacategoria_listacategoria__ = __webpack_require__(53);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1506,6 +1483,86 @@ CategoriaPage = __decorate([
 ], CategoriaPage);
 
 //# sourceMappingURL=categoria.js.map
+
+/***/ }),
+
+/***/ 53:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListacategoriaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcategoria_editarcategoria__ = __webpack_require__(106);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the ListacategoriaPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ListacategoriaPage = ListacategoriaPage_1 = (function () {
+    function ListacategoriaPage(navCtrl, navParams, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.materia = '../assets/img/materiaprima.jpg';
+        this.pegante = '../assets/img/pegante.jpg';
+        this.zapatos = '../assets/img/zapatos.jpg';
+    }
+    ListacategoriaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ListacategoriaPage');
+    };
+    ListacategoriaPage.prototype.openEditarcategoriaPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */]);
+    };
+    ListacategoriaPage.prototype.showConfirm = function () {
+        var _this = this;
+        var confirm = this.alertCtrl.create({
+            title: 'Eliminar Categoria',
+            message: 'Esta de acuerdo en eliminar esta categoria',
+            buttons: [
+                {
+                    text: 'No',
+                    handler: function () {
+                        console.log('No Haga click aqui');
+                    }
+                },
+                {
+                    text: 'Si',
+                    handler: function () {
+                        console.log('Si haga click aqui');
+                        _this.navCtrl.push(ListacategoriaPage_1);
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    return ListacategoriaPage;
+}());
+ListacategoriaPage = ListacategoriaPage_1 = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-listacategoria',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacategoria\listacategoria.html"*/'<!--\n\n  Generated template for the ListacategoriaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>listacategoria</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1>Lista Categorias</h1>\n\n					<div>\n\n\n\n					<ion-searchbar> </ion-searchbar>\n\n				  	<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{materia}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Materia Prima</h3>\n\n				      <button ion-button clear  (click)="openEditarcategoriaPage()">Modificar</button>\n\n				      <button ion-button clear item-end (click)="showConfirm()">Eliminar</button>\n\n				      \n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{pegante}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Pegante</h3>\n\n				      <button ion-button clear  (click)="openEditarcategoriaPage()">Modificar</button>\n\n				      <button ion-button clear item-end (click)="showConfirm()">Eliminar</button>\n\n				      \n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos</h3>\n\n				      <button ion-button clear  (click)="openEditarcategoriaPage()">Modificar</button>\n\n				      <button ion-button clear item-end (click)="showConfirm()">Eliminar</button>\n\n				      \n\n					</ion-item>\n\n\n\n\n\n				   </div>	\n\n				</ion-list>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacategoria\listacategoria.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], ListacategoriaPage);
+
+var ListacategoriaPage_1;
+//# sourceMappingURL=listacategoria.js.map
 
 /***/ })
 
