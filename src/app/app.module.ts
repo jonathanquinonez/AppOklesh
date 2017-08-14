@@ -36,6 +36,8 @@ import {EditarclientePage} from '../pages/editarcliente/editarcliente';
 import {ListaclientePage} from '../pages/listacliente/listacliente';
 import {ModificarclientePage} from '../pages/modificarcliente/modificarcliente';
 
+import {FacturaPage} from '../pages/factura/factura';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -75,7 +77,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CrearclientePage,
     EditarclientePage,
     ListaclientePage,
-    ModificarclientePage
+    ModificarclientePage,
+
+    FacturaPage
  
 
   ],
@@ -117,7 +121,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CrearclientePage,
     EditarclientePage,
     ListaclientePage,
-    ModificarclientePage
+    ModificarclientePage,
+
+    FacturaPage
    
 
     

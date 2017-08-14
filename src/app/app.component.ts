@@ -36,6 +36,8 @@ import {EditarclientePage} from '../pages/editarcliente/editarcliente';
 import {ListaclientePage} from '../pages/listacliente/listacliente';
 import {ModificarclientePage} from '../pages/modificarcliente/modificarcliente';
 
+import {FacturaPage} from '../pages/factura/factura';
+
 
 
 @Component({

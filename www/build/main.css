@@ -25493,6 +25493,10 @@ ion-navbar.toolbar {
   padding: 15px 30px;
 }
 
+.centro {
+  text-align: center;
+}
+
 .sesion {
   background-repeat: no-repeat;
   position: relative;
