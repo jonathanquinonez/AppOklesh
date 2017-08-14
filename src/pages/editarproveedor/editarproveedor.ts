@@ -29,7 +29,10 @@ export class EditarproveedorPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditarproveedorPage');
   }
-    saveData(){
+
+
+
+  saveData(){
     console.log(this.myForm.value);
   }
 

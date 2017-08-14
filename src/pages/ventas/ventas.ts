@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {ClientePage} from '../cliente/cliente';
 
 /**
  * Generated class for the VentasPage page.
@@ -20,6 +21,11 @@ export class VentasPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad VentasPage');
+  }
+
+  openClientePage(){
+
+  	this.navCtrl.push(ClientePage);
   }
 
 }

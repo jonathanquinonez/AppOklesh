@@ -30,6 +30,12 @@ import {EditarproveedorPage} from '../pages/editarproveedor/editarproveedor';
 import {ModificarproveedorPage} from '../pages/modificarproveedor/modificarproveedor';
 import {CrearproveedorPage} from '../pages/crearproveedor/crearproveedor';
 
+import {ClientePage} from '../pages/cliente/cliente';
+import {CrearclientePage} from '../pages/crearcliente/crearcliente';
+import {EditarclientePage} from '../pages/editarcliente/editarcliente';
+import {ListaclientePage} from '../pages/listacliente/listacliente';
+import {ModificarclientePage} from '../pages/modificarcliente/modificarcliente';
+
 
 
 @Component({
