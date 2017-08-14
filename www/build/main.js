@@ -948,11 +948,141 @@ CrearclientePage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FacturaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the FacturaPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var FacturaPage = (function () {
+    function FacturaPage(navCtrl, navParams, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.zapatos1 = '../assets/img/zapatos1.jpg';
+        this.zapatos2 = '../assets/img/zapatos2.jpg';
+        this.zapatos3 = '../assets/img/zapatos3.jpg';
+        this.zapatos4 = '../assets/img/zapatos4.jpg';
+        this.zapatos5 = '../assets/img/zapatos5.jpg';
+        this.zapatos6 = '../assets/img/zapatos6.jpg';
+    }
+    FacturaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FacturaPage');
+    };
+    FacturaPage.prototype.showConfirm = function () {
+        var confirm = this.alertCtrl.create({
+            title: 'Eliminar Articulo',
+            message: 'Esta de acuerdo en eliminar este articulo',
+            buttons: [
+                {
+                    text: 'No',
+                    handler: function () {
+                        console.log('No Haga click aqui');
+                    }
+                },
+                {
+                    text: 'Si',
+                    handler: function () {
+                        console.log('Si haga click aqui');
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    FacturaPage.prototype.showConfirme = function () {
+        var confirm = this.alertCtrl.create({
+            title: 'Eliminar Cliente',
+            message: 'Esta de acuerdo en eliminar este cliente',
+            buttons: [
+                {
+                    text: 'No',
+                    handler: function () {
+                        console.log('No Haga click aqui');
+                    }
+                },
+                {
+                    text: 'Si',
+                    handler: function () {
+                        console.log('Si haga click aqui');
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    FacturaPage.prototype.showConfirmec = function () {
+        var confirm = this.alertCtrl.create({
+            title: 'Eliminar Factura',
+            message: 'Esta de acuerdo en eliminar este factura',
+            buttons: [
+                {
+                    text: 'No',
+                    handler: function () {
+                        console.log('No Haga click aqui');
+                    }
+                },
+                {
+                    text: 'Si',
+                    handler: function () {
+                        console.log('Si haga click aqui');
+                    }
+                }
+            ]
+        });
+        confirm.present();
+    };
+    FacturaPage.prototype.showAlert = function () {
+        var alert = this.alertCtrl.create({
+            title: 'Factura Guardada',
+            subTitle: 'La factura fue guardada con exito',
+            buttons: [{
+                    text: 'Ok',
+                    handler: function () {
+                        console.log('Ok haga click aqui');
+                    }
+                }]
+        });
+        alert.present();
+    };
+    return FacturaPage;
+}());
+FacturaPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-factura',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\factura\factura.html"*/'<!--\n\n  Generated template for the FacturaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>factura</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1 class="centro">Facturacion</h1>\n\n				<br>\n\n					<div>\n\n\n\n					    <h1>Cliente</h1>\n\n\n\n					    <ion-searchbar> </ion-searchbar>\n\n					    <ion-item >\n\n				         <h3>Laura Quintero</h3>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirme()">Quitar</button>\n\n					</ion-item>\n\n					    <br>\n\n					    <h1>Lista Articulos</h1>\n\n				  		<ion-searchbar> </ion-searchbar>\n\n\n\n				  		<h1>Lista Articulos</h1>\n\n\n\n\n\n				  	<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos1}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 1</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos2}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 2</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos3}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 3</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos4}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 4</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos5}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 5</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos6}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 6</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <h4>Unidades: 1</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n\n\n					<ion-item >\n\n				      <h3>TOTAL</h3>\n\n				      <h4 item-end>240000</h4>\n\n				    </ion-item>\n\n\n\n\n\n					\n\n\n\n				   </div>	\n\n\n\n				   <div class="div">\n\n\n\n				<div>\n\n				<div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="showAlert()">Guardar</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive (click)="showConfirmec()">Cancelar</button>\n\n			    </div>    \n\n			    <br>\n\n \n\n			    </div>  \n\n			</div>\n\n				</ion-list>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\factura\factura.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], FacturaPage);
+
+//# sourceMappingURL=factura.js.map
+
+/***/ }),
+
+/***/ 120:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VentasPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cliente_cliente__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__factura_factura__ = __webpack_require__(320);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__factura_factura__ = __webpack_require__(119);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1000,7 +1130,7 @@ VentasPage = __decorate([
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1046,7 +1176,7 @@ EditarcortadorPage = __decorate([
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1096,15 +1226,15 @@ var EliminarcortadorPage_1;
 
 /***/ }),
 
-/***/ 122:
+/***/ 123:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmpleadocortadorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcortador_editarcortador__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eliminarcortador_eliminarcortador__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcortador_editarcortador__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eliminarcortador_eliminarcortador__ = __webpack_require__(122);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1156,14 +1286,14 @@ var EmpleadocortadorPage_1;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListacortadoresPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__empleadocortador_empleadocortador__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__empleadocortador_empleadocortador__ = __webpack_require__(123);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1207,14 +1337,14 @@ ListacortadoresPage = __decorate([
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmpleadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacortadores_listacortadores__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacortadores_listacortadores__ = __webpack_require__(124);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1258,7 +1388,7 @@ EmpleadosPage = __decorate([
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1304,7 +1434,7 @@ BodegaPage = __decorate([
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1312,9 +1442,9 @@ BodegaPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__compras_compras__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ventas_ventas__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__empleados_empleados__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bodega_bodega__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ventas_ventas__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__empleados_empleados__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bodega_bodega__ = __webpack_require__(126);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1370,7 +1500,7 @@ MenuprincipaPage = __decorate([
 
 /***/ }),
 
-/***/ 135:
+/***/ 136:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -1379,133 +1509,133 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 135;
+webpackEmptyAsyncContext.id = 136;
 
 /***/ }),
 
-/***/ 176:
+/***/ 177:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/articulo/articulo.module": [
-		294,
+		295,
 		29
 	],
 	"../pages/articulomodificar/articulomodificar.module": [
-		291,
+		292,
 		28
 	],
 	"../pages/bodega/bodega.module": [
-		317,
+		319,
 		27
 	],
 	"../pages/categoria/categoria.module": [
-		298,
+		299,
 		26
 	],
 	"../pages/cliente/cliente.module": [
-		310,
+		311,
 		25
 	],
 	"../pages/compras/compras.module": [
-		305,
+		306,
 		24
 	],
 	"../pages/creararticulo/creararticulo.module": [
-		293,
+		294,
 		23
 	],
 	"../pages/crearcategoria/crearcategoria.module": [
-		295,
+		296,
 		22
 	],
 	"../pages/crearcliente/crearcliente.module": [
-		309,
+		310,
 		21
 	],
 	"../pages/crearproveedor/crearproveedor.module": [
-		300,
+		301,
 		20
 	],
 	"../pages/editararticulo/editararticulo.module": [
-		290,
+		291,
 		19
 	],
 	"../pages/editarcategoria/editarcategoria.module": [
-		296,
+		297,
 		18
 	],
 	"../pages/editarcliente/editarcliente.module": [
-		306,
+		307,
 		17
 	],
 	"../pages/editarcortador/editarcortador.module": [
-		312,
+		314,
 		16
 	],
 	"../pages/editarproveedor/editarproveedor.module": [
-		301,
+		302,
 		15
 	],
 	"../pages/eliminarcortador/eliminarcortador.module": [
-		313,
+		315,
 		14
 	],
 	"../pages/empleadocortador/empleadocortador.module": [
-		314,
+		316,
 		13
 	],
 	"../pages/empleados/empleados.module": [
-		316,
+		318,
 		12
 	],
 	"../pages/factura/factura.module": [
-		319,
-		0
-	],
-	"../pages/listaarticulo/listaarticulo.module": [
-		292,
+		312,
 		11
 	],
-	"../pages/listacategoria/listacategoria.module": [
-		297,
+	"../pages/listaarticulo/listaarticulo.module": [
+		293,
 		10
 	],
-	"../pages/listacliente/listacliente.module": [
-		308,
+	"../pages/listacategoria/listacategoria.module": [
+		298,
 		9
 	],
-	"../pages/listacortadores/listacortadores.module": [
-		315,
+	"../pages/listacliente/listacliente.module": [
+		309,
 		8
 	],
-	"../pages/listainventario/listainventario.module": [
-		299,
+	"../pages/listacortadores/listacortadores.module": [
+		317,
 		7
 	],
-	"../pages/listaproveedor/listaproveedor.module": [
-		303,
+	"../pages/listainventario/listainventario.module": [
+		300,
 		6
 	],
-	"../pages/menuprincipa/menuprincipa.module": [
-		318,
+	"../pages/listaproveedor/listaproveedor.module": [
+		304,
 		5
 	],
-	"../pages/modificarcliente/modificarcliente.module": [
-		307,
+	"../pages/menuprincipa/menuprincipa.module": [
+		320,
 		4
 	],
-	"../pages/modificarproveedor/modificarproveedor.module": [
-		302,
+	"../pages/modificarcliente/modificarcliente.module": [
+		308,
 		3
 	],
-	"../pages/proveedor/proveedor.module": [
-		304,
+	"../pages/modificarproveedor/modificarproveedor.module": [
+		303,
 		2
 	],
-	"../pages/ventas/ventas.module": [
-		311,
+	"../pages/proveedor/proveedor.module": [
+		305,
 		1
+	],
+	"../pages/ventas/ventas.module": [
+		313,
+		0
 	]
 };
 function webpackAsyncContext(req) {
@@ -1520,18 +1650,18 @@ webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
 module.exports = webpackAsyncContext;
-webpackAsyncContext.id = 176;
+webpackAsyncContext.id = 177;
 
 /***/ }),
 
-/***/ 220:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa_menuprincipa__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa_menuprincipa__ = __webpack_require__(127);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1564,13 +1694,13 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 221:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(240);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(241);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1578,7 +1708,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 240:
+/***/ 241:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1586,17 +1716,17 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_compras_compras__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ventas_ventas__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_empleados_empleados__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_bodega_bodega__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_listacortadores_listacortadores__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_empleadocortador_empleadocortador__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_editarcortador_editarcortador__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_eliminarcortador_eliminarcortador__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ventas_ventas__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_empleados_empleados__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_bodega_bodega__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_listacortadores_listacortadores__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_empleadocortador_empleadocortador__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_editarcortador_editarcortador__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_eliminarcortador_eliminarcortador__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_articulo_articulo__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_listaarticulo_listaarticulo__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_articulomodificar_articulomodificar__ = __webpack_require__(51);
@@ -1617,9 +1747,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_editarcliente_editarcliente__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_listacliente_listacliente__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_modificarcliente_modificarcliente__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_factura_factura__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_status_bar__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ionic_native_splash_screen__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_factura_factura__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_status_bar__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ionic_native_splash_screen__ = __webpack_require__(220);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1729,6 +1859,7 @@ AppModule = __decorate([
                     { loadChildren: '../pages/listacliente/listacliente.module#ListaclientePageModule', name: 'ListaclientePage', segment: 'listacliente', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/crearcliente/crearcliente.module#CrearclientePageModule', name: 'CrearclientePage', segment: 'crearcliente', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/cliente/cliente.module#ClientePageModule', name: 'ClientePage', segment: 'cliente', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/factura/factura.module#FacturaPageModule', name: 'FacturaPage', segment: 'factura', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/ventas/ventas.module#VentasPageModule', name: 'VentasPage', segment: 'ventas', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/editarcortador/editarcortador.module#EditarcortadorPageModule', name: 'EditarcortadorPage', segment: 'editarcortador', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/eliminarcortador/eliminarcortador.module#EliminarcortadorPageModule', name: 'EliminarcortadorPage', segment: 'eliminarcortador', priority: 'low', defaultHistory: [] },
@@ -1736,8 +1867,7 @@ AppModule = __decorate([
                     { loadChildren: '../pages/listacortadores/listacortadores.module#ListacortadoresPageModule', name: 'ListacortadoresPage', segment: 'listacortadores', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/empleados/empleados.module#EmpleadosPageModule', name: 'EmpleadosPage', segment: 'empleados', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/bodega/bodega.module#BodegaPageModule', name: 'BodegaPage', segment: 'bodega', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menuprincipa/menuprincipa.module#MenuprincipaPageModule', name: 'MenuprincipaPage', segment: 'menuprincipa', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/factura/factura.module#FacturaPageModule', name: 'FacturaPage', segment: 'factura', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/menuprincipa/menuprincipa.module#MenuprincipaPageModule', name: 'MenuprincipaPage', segment: 'menuprincipa', priority: 'low', defaultHistory: [] }
                 ]
             }),
         ],
@@ -1788,16 +1918,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 281:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(221);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1851,102 +1981,6 @@ MyApp = __decorate([
 ], MyApp);
 
 //# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 320:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FacturaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the FacturaPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var FacturaPage = (function () {
-    function FacturaPage(navCtrl, navParams, alertCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.alertCtrl = alertCtrl;
-        this.zapatos1 = '../assets/img/zapatos1.jpg';
-        this.zapatos2 = '../assets/img/zapatos2.jpg';
-        this.zapatos3 = '../assets/img/zapatos3.jpg';
-        this.zapatos4 = '../assets/img/zapatos4.jpg';
-        this.zapatos5 = '../assets/img/zapatos5.jpg';
-        this.zapatos6 = '../assets/img/zapatos6.jpg';
-    }
-    FacturaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad FacturaPage');
-    };
-    FacturaPage.prototype.showConfirm = function () {
-        var confirm = this.alertCtrl.create({
-            title: 'Eliminar Articulo',
-            message: 'Esta de acuerdo en eliminar este articulo',
-            buttons: [
-                {
-                    text: 'No',
-                    handler: function () {
-                        console.log('No Haga click aqui');
-                    }
-                },
-                {
-                    text: 'Si',
-                    handler: function () {
-                        console.log('Si haga click aqui');
-                    }
-                }
-            ]
-        });
-        confirm.present();
-    };
-    FacturaPage.prototype.showConfirme = function () {
-        var confirm = this.alertCtrl.create({
-            title: 'Eliminar Cliente',
-            message: 'Esta de acuerdo en eliminar este cliente',
-            buttons: [
-                {
-                    text: 'No',
-                    handler: function () {
-                        console.log('No Haga click aqui');
-                    }
-                },
-                {
-                    text: 'Si',
-                    handler: function () {
-                        console.log('Si haga click aqui');
-                    }
-                }
-            ]
-        });
-        confirm.present();
-    };
-    return FacturaPage;
-}());
-FacturaPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-factura',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\factura\factura.html"*/'<!--\n\n  Generated template for the FacturaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>factura</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1 class="centro">Facturacion</h1>\n\n				<br>\n\n					<div>\n\n\n\n					    <h1>Cliente</h1>\n\n\n\n					    <ion-searchbar> </ion-searchbar>\n\n					    <ion-item >\n\n				         <h3>Laura Quintero</h3>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirme()">Quitar</button>\n\n					</ion-item>\n\n					    <br>\n\n					    <h1>Lista Articulos</h1>\n\n				  		<ion-searchbar> </ion-searchbar>\n\n\n\n				  		<h1>Lista Articulos</h1>\n\n\n\n\n\n				  	<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos1}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 1</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos2}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 2</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos3}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 3</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos4}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 4</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos5}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 5</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src={{zapatos6}}>\n\n				      </ion-thumbnail >\n\n				      <h3>Zapatos 6</h3>\n\n				      <h4>Precio: 40000</h4>\n\n				      <button ion-button item-end color="danger" round (click)="showConfirm()">Quitar</button>\n\n					</ion-item>\n\n\n\n\n\n					\n\n\n\n				   </div>	\n\n				</ion-list>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\factura\factura.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
-], FacturaPage);
-
-//# sourceMappingURL=factura.js.map
 
 /***/ }),
 
@@ -2504,5 +2538,5 @@ ClientePage = __decorate([
 
 /***/ })
 
-},[221]);
+},[222]);
 //# sourceMappingURL=main.js.map

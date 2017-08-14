@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 315:
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListacortadoresPageModule", function() { return ListacortadoresPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListaclientePageModule", function() { return ListaclientePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacortadores__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacliente__ = __webpack_require__(40);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ListacortadoresPageModule = (function () {
-    function ListacortadoresPageModule() {
+var ListaclientePageModule = (function () {
+    function ListaclientePageModule() {
     }
-    return ListacortadoresPageModule;
+    return ListaclientePageModule;
 }());
-ListacortadoresPageModule = __decorate([
+ListaclientePageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__listacortadores__["a" /* ListacortadoresPage */],
+            __WEBPACK_IMPORTED_MODULE_2__listacliente__["a" /* ListaclientePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listacortadores__["a" /* ListacortadoresPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listacliente__["a" /* ListaclientePage */]),
         ],
     })
-], ListacortadoresPageModule);
+], ListaclientePageModule);
 
-//# sourceMappingURL=listacortadores.module.js.map
+//# sourceMappingURL=listacliente.module.js.map
 
 /***/ })
 

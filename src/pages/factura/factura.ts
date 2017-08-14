@@ -77,4 +77,41 @@ export class FacturaPage {
     confirm.present();
   }
 
+  showConfirmec() {
+    let confirm = this.alertCtrl.create({
+      title: 'Eliminar Factura',
+      message: 'Esta de acuerdo en eliminar este factura',
+      buttons: [
+        {
+          text: 'No',
+          handler: () => {
+            console.log('No Haga click aqui');
+          }
+        },
+        {
+          text: 'Si',
+          handler: () => {
+            console.log('Si haga click aqui');
+          }
+        }
+      ]
+    });
+    confirm.present();
+  }
+
+  showAlert() {
+    let alert = this.alertCtrl.create({
+      title: 'Factura Guardada',
+      subTitle: 'La factura fue guardada con exito',
+      buttons: [{
+          text: 'Ok',
+          handler: () => {
+            console.log('Ok haga click aqui');
+          }
+        }]
+      
+    });
+    alert.present();
+  }
+
 }
