@@ -24,6 +24,12 @@ import {ListacategoriaPage} from '../pages/listacategoria/listacategoria';
 import {EditarcategoriaPage} from '../pages/editarcategoria/editarcategoria';
 import {ListainventarioPage} from '../pages/listainventario/listainventario';
 
+import {ProveedorPage} from '../pages/proveedor/proveedor';
+import {ListaproveedorPage} from '../pages/listaproveedor/listaproveedor';
+import {EditarproveedorPage} from '../pages/editarproveedor/editarproveedor';
+import {ModificarproveedorPage} from '../pages/modificarproveedor/modificarproveedor';
+import {CrearproveedorPage} from '../pages/crearproveedor/crearproveedor';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -51,7 +57,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CrearcategoriaPage,
     ListacategoriaPage,
     EditarcategoriaPage,
-    ListainventarioPage
+    ListainventarioPage,
+
+    ProveedorPage,
+    ListaproveedorPage,
+    EditarproveedorPage,
+    ModificarproveedorPage,
+    CrearproveedorPage
  
 
   ],
@@ -81,7 +93,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CrearcategoriaPage,
     ListacategoriaPage,
     EditarcategoriaPage,
-    ListainventarioPage
+    ListainventarioPage,
+
+    ProveedorPage,
+    ListaproveedorPage,
+    EditarproveedorPage,
+    ModificarproveedorPage,
+    CrearproveedorPage
    
 
     

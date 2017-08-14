@@ -25347,6 +25347,46 @@ ion-navbar.toolbar {
   width: -webkit-fill-available;
 }
 
+.sesion {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 85%;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  text-align: center;
+}
+
+.ion-content {
+  background-image: url("../assets/img/fondo.jpg");
+  -webkit-background-image: url("../assets/img/fondo.jpg");
+}
+
+.selectt {
+  width: -webkit-fill-available;
+}
+
+.sesion {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 85%;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  text-align: center;
+}
+
+.ion-content {
+  background-image: url("../assets/img/fondo.jpg");
+  -webkit-background-image: url("../assets/img/fondo.jpg");
+}
+
+.selectt {
+  width: -webkit-fill-available;
+}
+
 .div {
   background-repeat: no-repeat;
   position: relative;
@@ -25405,6 +25445,50 @@ ion-navbar.toolbar {
 .ion-content {
   background-image: url("../assets/img/fondo.jpg");
   -webkit-background-image: url("../assets/img/fondo.jpg");
+}
+
+.div {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 85%;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  text-align: center;
+}
+
+.ion-content {
+  background-image: url("../assets/img/fondo.jpg");
+  -webkit-background-image: url("../assets/img/fondo.jpg");
+}
+
+.botonmenu {
+  width: 100px;
+  height: 70px;
+  padding: 15px 30px;
+}
+
+.div {
+  background-repeat: no-repeat;
+  position: relative;
+  width: 85%;
+  height: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  text-align: center;
+}
+
+.ion-content {
+  background-image: url("../assets/img/fondo.jpg");
+  -webkit-background-image: url("../assets/img/fondo.jpg");
+}
+
+.botonmenu {
+  width: 100px;
+  height: 70px;
+  padding: 15px 30px;
 }
 
 .div {

@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ArticuloPage} from '../articulo/articulo';
 import {CategoriaPage} from '../categoria/categoria';
 import {ListainventarioPage} from '../listainventario/listainventario';
-
+import {ProveedorPage} from '../proveedor/proveedor';
 
 /**
  * Generated class for the ComprasPage page.
@@ -40,6 +40,11 @@ export class ComprasPage {
   openListainventarioPage(){
 
     this.navCtrl.push(ListainventarioPage);
+  }
+
+  openProveedorPage(){
+
+    this.navCtrl.push(ProveedorPage);
   }
 
 
