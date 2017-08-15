@@ -25471,6 +25471,10 @@ ion-navbar.toolbar {
   padding: 15px 30px;
 }
 
+.centro {
+  text-align: center;
+}
+
 .div {
   background-repeat: no-repeat;
   position: relative;
@@ -25479,21 +25483,6 @@ ion-navbar.toolbar {
   margin-left: auto;
   margin-right: auto;
   top: 30%;
-  text-align: center;
-}
-
-.ion-content {
-  background-image: url("../assets/img/fondo.jpg");
-  -webkit-background-image: url("../assets/img/fondo.jpg");
-}
-
-.botonmenu {
-  width: 100px;
-  height: 70px;
-  padding: 15px 30px;
-}
-
-.centro {
   text-align: center;
 }
 

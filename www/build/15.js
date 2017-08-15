@@ -1,14 +1,14 @@
 webpackJsonp([15],{
 
-/***/ 302:
+/***/ 320:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditarproveedorPageModule", function() { return EditarproveedorPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditarempleadoPageModule", function() { return EditarempleadoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarproveedor__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarempleado__ = __webpack_require__(220);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var EditarproveedorPageModule = (function () {
-    function EditarproveedorPageModule() {
+var EditarempleadoPageModule = (function () {
+    function EditarempleadoPageModule() {
     }
-    return EditarproveedorPageModule;
+    return EditarempleadoPageModule;
 }());
-EditarproveedorPageModule = __decorate([
+EditarempleadoPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__editarproveedor__["a" /* EditarproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_2__editarempleado__["a" /* EditarempleadoPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__editarproveedor__["a" /* EditarproveedorPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__editarempleado__["a" /* EditarempleadoPage */]),
         ],
     })
-], EditarproveedorPageModule);
+], EditarempleadoPageModule);
 
-//# sourceMappingURL=editarproveedor.module.js.map
+//# sourceMappingURL=editarempleado.module.js.map
 
 /***/ })
 

@@ -1,14 +1,14 @@
 webpackJsonp([21],{
 
-/***/ 310:
+/***/ 319:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CrearclientePageModule", function() { return CrearclientePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CrearempleadoPageModule", function() { return CrearempleadoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__crearcliente__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__crearempleado__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CrearclientePageModule = (function () {
-    function CrearclientePageModule() {
+var CrearempleadoPageModule = (function () {
+    function CrearempleadoPageModule() {
     }
-    return CrearclientePageModule;
+    return CrearempleadoPageModule;
 }());
-CrearclientePageModule = __decorate([
+CrearempleadoPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__crearcliente__["a" /* CrearclientePage */],
+            __WEBPACK_IMPORTED_MODULE_2__crearempleado__["a" /* CrearempleadoPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__crearcliente__["a" /* CrearclientePage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__crearempleado__["a" /* CrearempleadoPage */]),
         ],
     })
-], CrearclientePageModule);
+], CrearempleadoPageModule);
 
-//# sourceMappingURL=crearcliente.module.js.map
+//# sourceMappingURL=crearempleado.module.js.map
 
 /***/ })
 

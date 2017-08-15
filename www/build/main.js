@@ -1,4 +1,4 @@
-webpackJsonp([30],{
+webpackJsonp([31],{
 
 /***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1134,217 +1134,10 @@ VentasPage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditarcortadorPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the EditarcortadorPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var EditarcortadorPage = (function () {
-    function EditarcortadorPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    EditarcortadorPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EditarcortadorPage');
-    };
-    return EditarcortadorPage;
-}());
-EditarcortadorPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-editarcortador',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcortador\editarcortador.html"*/'<!--\n\n  Generated template for the EditarcortadorPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editarcortador</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcortador\editarcortador.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-], EditarcortadorPage);
-
-//# sourceMappingURL=editarcortador.js.map
-
-/***/ }),
-
-/***/ 122:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EliminarcortadorPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the EliminarcortadorPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var EliminarcortadorPage = EliminarcortadorPage_1 = (function () {
-    function EliminarcortadorPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    EliminarcortadorPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EliminarcortadorPage');
-    };
-    EliminarcortadorPage.prototype.openEliminarcortador = function () {
-        this.navCtrl.push(EliminarcortadorPage_1);
-    };
-    return EliminarcortadorPage;
-}());
-EliminarcortadorPage = EliminarcortadorPage_1 = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-eliminarcortador',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\eliminarcortador\eliminarcortador.html"*/'<!--\n\n  Generated template for the EliminarcortadorPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>eliminarcortador</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\eliminarcortador\eliminarcortador.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-], EliminarcortadorPage);
-
-var EliminarcortadorPage_1;
-//# sourceMappingURL=eliminarcortador.js.map
-
-/***/ }),
-
-/***/ 123:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmpleadocortadorPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__editarcortador_editarcortador__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__eliminarcortador_eliminarcortador__ = __webpack_require__(122);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the EmpleadocortadorPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var EmpleadocortadorPage = EmpleadocortadorPage_1 = (function () {
-    function EmpleadocortadorPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    EmpleadocortadorPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EmpleadocortadorPage');
-    };
-    EmpleadocortadorPage.prototype.openEmpleadocortador = function () {
-        this.navCtrl.push(EmpleadocortadorPage_1);
-    };
-    EmpleadocortadorPage.prototype.openEditarcortador = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__editarcortador_editarcortador__["a" /* EditarcortadorPage */]);
-    };
-    EmpleadocortadorPage.prototype.openEliminarcortador = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__eliminarcortador_eliminarcortador__["a" /* EliminarcortadorPage */]);
-    };
-    return EmpleadocortadorPage;
-}());
-EmpleadocortadorPage = EmpleadocortadorPage_1 = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-empleadocortador',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleadocortador\empleadocortador.html"*/'<!--\n\n  Generated template for the EmpleadocortadorPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>empleadocortador</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n\n\n			<div class="div">\n\n				  	  \n\n				      <img src=\'../assets/img/cara1.jpg\'>\n\n				      \n\n				      <h3>Cortador 1</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <div>\n\n\n\n				      <button ion-button color="secondary" round (click)="openEditarcortador()">Editar</button>\n\n				      <button ion-button color="danger" round (click)="openEliminarcortador()">Eliminar</button>\n\n\n\n					  </div>\n\n			</div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleadocortador\empleadocortador.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-], EmpleadocortadorPage);
-
-var EmpleadocortadorPage_1;
-//# sourceMappingURL=empleadocortador.js.map
-
-/***/ }),
-
-/***/ 124:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListacortadoresPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__empleadocortador_empleadocortador__ = __webpack_require__(123);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the ListacortadoresPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-var ListacortadoresPage = (function () {
-    function ListacortadoresPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ListacortadoresPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ListacortadoresPage');
-    };
-    ListacortadoresPage.prototype.openEmpleadocortador = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__empleadocortador_empleadocortador__["a" /* EmpleadocortadorPage */]);
-    };
-    return ListacortadoresPage;
-}());
-ListacortadoresPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-listacortadores',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacortadores\listacortadores.html"*/'<!--\n\n  Generated template for the ListacortadoresPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>listacortadores</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n		<ion-list>\n\n\n\n				<h1>Lista Cortadores</h1>\n\n					<div>\n\n				  		<ion-searchbar> </ion-searchbar>\n\n				  	<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara1.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 1</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara2.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 2</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara3.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 3</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara4.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 4</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara5.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 5</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n					<ion-item >\n\n				  	  <ion-thumbnail item-start>\n\n				      <img src=\'../assets/img/cara6.jpg\'>\n\n				      </ion-thumbnail >\n\n				      <h3>Cortador 6</h3>\n\n				      <h4>Direccion - Telefono</h4>\n\n				      <h5>descripcion</h5>\n\n				      <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ullamcorper tortor aliquam enim imperdiet sollicitudin.</p>\n\n				      <button ion-button clear item-end (click)="openEmpleadocortador()">Ver Mas</button>\n\n					</ion-item>\n\n\n\n				   </div>	\n\n				</ion-list>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listacortadores\listacortadores.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-], ListacortadoresPage);
-
-//# sourceMappingURL=listacortadores.js.map
-
-/***/ }),
-
-/***/ 125:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmpleadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacortadores_listacortadores__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__crearempleado_crearempleado__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1371,24 +1164,25 @@ var EmpleadosPage = (function () {
     EmpleadosPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad EmpleadosPage');
     };
-    EmpleadosPage.prototype.openListacortadoresPage = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__listacortadores_listacortadores__["a" /* ListacortadoresPage */]);
+    EmpleadosPage.prototype.openCrearempleadoPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__crearempleado_crearempleado__["a" /* CrearempleadoPage */]);
     };
     return EmpleadosPage;
 }());
 EmpleadosPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-empleados',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleados\empleados.html"*/'<!--\n\n  Generated template for the EmpleadosPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>empleados</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n	<div class="div">\n\n\n\n		<h1>Empleados</h1>	\n\n			<div>\n\n				<div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="openListacortadoresPage()">Cortador</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive>Guarnecedor</button>\n\n			    </div>    \n\n			    <br>\n\n			    <div>\n\n			        <button class="botonmenu" ion-button button-positive>Soletero</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive>Limpiador</button>\n\n			    </div>  \n\n			    </div>  \n\n			</div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleados\empleados.html"*/,
+        selector: 'page-empleados',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleados\empleados.html"*/'<!--\n\n  Generated template for the EmpleadosPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>empleados</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="ion-content" padding>\n\n	<div class="div">\n\n\n\n		<h1>Empleados</h1>	\n\n			<div>\n\n				<div>\n\n			        <button class="botonmenu" ion-button button-positive (click)="openCrearempleadoPage()">Crear</button>\n\n\n\n			        <button class="botonmenu" ion-button button-positive>Lista</button>\n\n			    </div>    \n\n			    <br>  \n\n			    </div>  \n\n			</div>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\empleados\empleados.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
 ], EmpleadosPage);
 
+var _a, _b;
 //# sourceMappingURL=empleados.js.map
 
 /***/ }),
 
-/***/ 126:
+/***/ 122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1434,7 +1228,7 @@ BodegaPage = __decorate([
 
 /***/ }),
 
-/***/ 127:
+/***/ 123:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1443,8 +1237,8 @@ BodegaPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__compras_compras__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ventas_ventas__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__empleados_empleados__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bodega_bodega__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__empleados_empleados__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bodega_bodega__ = __webpack_require__(122);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1500,7 +1294,7 @@ MenuprincipaPage = __decorate([
 
 /***/ }),
 
-/***/ 136:
+/***/ 132:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -1509,132 +1303,136 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 136;
+webpackEmptyAsyncContext.id = 132;
 
 /***/ }),
 
-/***/ 177:
+/***/ 173:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/articulo/articulo.module": [
-		295,
-		29
+		296,
+		30
 	],
 	"../pages/articulomodificar/articulomodificar.module": [
-		292,
-		28
+		293,
+		29
 	],
 	"../pages/bodega/bodega.module": [
-		319,
-		27
+		316,
+		28
 	],
 	"../pages/categoria/categoria.module": [
-		299,
-		26
+		300,
+		27
 	],
 	"../pages/cliente/cliente.module": [
-		311,
-		25
+		312,
+		26
 	],
 	"../pages/compras/compras.module": [
-		306,
-		24
+		307,
+		25
 	],
 	"../pages/creararticulo/creararticulo.module": [
-		294,
-		23
+		295,
+		24
 	],
 	"../pages/crearcategoria/crearcategoria.module": [
-		296,
-		22
+		297,
+		23
 	],
 	"../pages/crearcliente/crearcliente.module": [
-		310,
+		311,
+		22
+	],
+	"../pages/crearempleado/crearempleado.module": [
+		319,
 		21
 	],
 	"../pages/crearproveedor/crearproveedor.module": [
-		301,
+		302,
 		20
 	],
 	"../pages/editararticulo/editararticulo.module": [
-		291,
+		292,
 		19
 	],
 	"../pages/editarcategoria/editarcategoria.module": [
-		297,
+		298,
 		18
 	],
 	"../pages/editarcliente/editarcliente.module": [
-		307,
+		308,
 		17
 	],
 	"../pages/editarcortador/editarcortador.module": [
-		314,
+		318,
 		16
 	],
-	"../pages/editarproveedor/editarproveedor.module": [
-		302,
+	"../pages/editarempleado/editarempleado.module": [
+		320,
 		15
 	],
-	"../pages/eliminarcortador/eliminarcortador.module": [
-		315,
+	"../pages/editarproveedor/editarproveedor.module": [
+		303,
 		14
 	],
-	"../pages/empleadocortador/empleadocortador.module": [
-		316,
+	"../pages/empleados/empleados.module": [
+		315,
 		13
 	],
-	"../pages/empleados/empleados.module": [
-		318,
+	"../pages/factura/factura.module": [
+		313,
 		12
 	],
-	"../pages/factura/factura.module": [
-		312,
+	"../pages/listaarticulo/listaarticulo.module": [
+		294,
 		11
 	],
-	"../pages/listaarticulo/listaarticulo.module": [
-		293,
+	"../pages/listacategoria/listacategoria.module": [
+		299,
 		10
 	],
-	"../pages/listacategoria/listacategoria.module": [
-		298,
+	"../pages/listacliente/listacliente.module": [
+		310,
 		9
 	],
-	"../pages/listacliente/listacliente.module": [
-		309,
+	"../pages/listaempleado/listaempleado.module": [
+		321,
 		8
 	],
-	"../pages/listacortadores/listacortadores.module": [
-		317,
+	"../pages/listainventario/listainventario.module": [
+		301,
 		7
 	],
-	"../pages/listainventario/listainventario.module": [
-		300,
+	"../pages/listaproveedor/listaproveedor.module": [
+		305,
 		6
 	],
-	"../pages/listaproveedor/listaproveedor.module": [
-		304,
+	"../pages/menuprincipa/menuprincipa.module": [
+		317,
 		5
 	],
-	"../pages/menuprincipa/menuprincipa.module": [
-		320,
+	"../pages/modificarcliente/modificarcliente.module": [
+		309,
 		4
 	],
-	"../pages/modificarcliente/modificarcliente.module": [
-		308,
+	"../pages/modificarempleado/modificarempleado.module": [
+		322,
 		3
 	],
 	"../pages/modificarproveedor/modificarproveedor.module": [
-		303,
+		304,
 		2
 	],
 	"../pages/proveedor/proveedor.module": [
-		305,
+		306,
 		1
 	],
 	"../pages/ventas/ventas.module": [
-		313,
+		314,
 		0
 	]
 };
@@ -1650,18 +1448,18 @@ webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
 module.exports = webpackAsyncContext;
-webpackAsyncContext.id = 177;
+webpackAsyncContext.id = 173;
 
 /***/ }),
 
-/***/ 221:
+/***/ 217:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa_menuprincipa__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa_menuprincipa__ = __webpack_require__(123);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1694,13 +1492,243 @@ HomePage = __decorate([
 
 /***/ }),
 
+/***/ 218:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditarcortadorPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the EditarcortadorPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var EditarcortadorPage = (function () {
+    function EditarcortadorPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    EditarcortadorPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EditarcortadorPage');
+    };
+    return EditarcortadorPage;
+}());
+EditarcortadorPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-editarcortador',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcortador\editarcortador.html"*/'<!--\n\n  Generated template for the EditarcortadorPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editarcortador</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarcortador\editarcortador.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], EditarcortadorPage);
+
+//# sourceMappingURL=editarcortador.js.map
+
+/***/ }),
+
+/***/ 219:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CrearempleadoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CrearempleadoPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var CrearempleadoPage = (function () {
+    function CrearempleadoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CrearempleadoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CrearempleadoPage');
+    };
+    return CrearempleadoPage;
+}());
+CrearempleadoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-crearempleado',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\crearempleado\crearempleado.html"*/'<!--\n\n  Generated template for the CrearempleadoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>crearempleado</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\crearempleado\crearempleado.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], CrearempleadoPage);
+
+//# sourceMappingURL=crearempleado.js.map
+
+/***/ }),
+
+/***/ 220:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditarempleadoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the EditarempleadoPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var EditarempleadoPage = (function () {
+    function EditarempleadoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    EditarempleadoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EditarempleadoPage');
+    };
+    return EditarempleadoPage;
+}());
+EditarempleadoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-editarempleado',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarempleado\editarempleado.html"*/'<!--\n\n  Generated template for the EditarempleadoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>editarempleado</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\editarempleado\editarempleado.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], EditarempleadoPage);
+
+//# sourceMappingURL=editarempleado.js.map
+
+/***/ }),
+
+/***/ 221:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaempleadoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ListaempleadoPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ListaempleadoPage = (function () {
+    function ListaempleadoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ListaempleadoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ListaempleadoPage');
+    };
+    return ListaempleadoPage;
+}());
+ListaempleadoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-listaempleado',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listaempleado\listaempleado.html"*/'<!--\n\n  Generated template for the ListaempleadoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>listaempleado</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\listaempleado\listaempleado.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], ListaempleadoPage);
+
+//# sourceMappingURL=listaempleado.js.map
+
+/***/ }),
+
 /***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModificarempleadoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ModificarempleadoPage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var ModificarempleadoPage = (function () {
+    function ModificarempleadoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ModificarempleadoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ModificarempleadoPage');
+    };
+    return ModificarempleadoPage;
+}());
+ModificarempleadoPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-modificarempleado',template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\modificarempleado\modificarempleado.html"*/'<!--\n\n  Generated template for the ModificarempleadoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>modificarempleado</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\pages\modificarempleado\modificarempleado.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+], ModificarempleadoPage);
+
+//# sourceMappingURL=modificarempleado.js.map
+
+/***/ }),
+
+/***/ 223:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(241);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(242);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1708,7 +1736,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 241:
+/***/ 242:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1716,46 +1744,48 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_compras_compras__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ventas_ventas__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_empleados_empleados__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_bodega_bodega__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_listacortadores_listacortadores__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_empleadocortador_empleadocortador__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_editarcortador_editarcortador__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_eliminarcortador_eliminarcortador__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_articulo_articulo__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_listaarticulo_listaarticulo__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_articulomodificar_articulomodificar__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_editararticulo_editararticulo__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_creararticulo_creararticulo__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_proveedor_proveedor__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_listaproveedor_listaproveedor__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_editarproveedor_editarproveedor__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_modificarproveedor_modificarproveedor__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_crearproveedor_crearproveedor__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_cliente_cliente__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_crearcliente_crearcliente__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_editarcliente_editarcliente__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_listacliente_listacliente__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_modificarcliente_modificarcliente__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_factura_factura__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_status_bar__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ionic_native_splash_screen__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bodega_bodega__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_editarcortador_editarcortador__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_articulo_articulo__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_listaarticulo_listaarticulo__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_articulomodificar_articulomodificar__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_editararticulo_editararticulo__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_creararticulo_creararticulo__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_categoria_categoria__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_crearcategoria_crearcategoria__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listacategoria_listacategoria__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_editarcategoria_editarcategoria__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_listainventario_listainventario__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_proveedor_proveedor__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_listaproveedor_listaproveedor__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_editarproveedor_editarproveedor__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_modificarproveedor_modificarproveedor__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_crearproveedor_crearproveedor__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_cliente_cliente__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_crearcliente_crearcliente__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_editarcliente_editarcliente__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_listacliente_listacliente__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_modificarcliente_modificarcliente__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_factura_factura__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_empleados_empleados__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_editarempleado_editarempleado__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_modificarempleado_modificarempleado__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_crearempleado_crearempleado__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_listaempleado_listaempleado__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__ionic_native_status_bar__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__ionic_native_splash_screen__ = __webpack_require__(216);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1806,33 +1836,34 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__["a" /* MenuprincipaPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_compras_compras__["a" /* ComprasPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_ventas_ventas__["a" /* VentasPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_empleados_empleados__["a" /* EmpleadosPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_bodega_bodega__["a" /* BodegaPage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_listacortadores_listacortadores__["a" /* ListacortadoresPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_empleadocortador_empleadocortador__["a" /* EmpleadocortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_editarcortador_editarcortador__["a" /* EditarcortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_eliminarcortador_eliminarcortador__["a" /* EliminarcortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_14__pages_articulo_articulo__["a" /* ArticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_listaarticulo_listaarticulo__["a" /* ListaarticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_16__pages_articulomodificar_articulomodificar__["a" /* ArticulomodificarPage */],
-            __WEBPACK_IMPORTED_MODULE_17__pages_editararticulo_editararticulo__["a" /* EditararticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_18__pages_creararticulo_creararticulo__["a" /* CreararticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__["a" /* CategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__["a" /* ListainventarioPage */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_proveedor_proveedor__["a" /* ProveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_listaproveedor_listaproveedor__["a" /* ListaproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_26__pages_editarproveedor_editarproveedor__["a" /* EditarproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_27__pages_modificarproveedor_modificarproveedor__["a" /* ModificarproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_crearproveedor_crearproveedor__["a" /* CrearproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_29__pages_cliente_cliente__["a" /* ClientePage */],
-            __WEBPACK_IMPORTED_MODULE_30__pages_crearcliente_crearcliente__["a" /* CrearclientePage */],
-            __WEBPACK_IMPORTED_MODULE_31__pages_editarcliente_editarcliente__["a" /* EditarclientePage */],
-            __WEBPACK_IMPORTED_MODULE_32__pages_listacliente_listacliente__["a" /* ListaclientePage */],
-            __WEBPACK_IMPORTED_MODULE_33__pages_modificarcliente_modificarcliente__["a" /* ModificarclientePage */],
-            __WEBPACK_IMPORTED_MODULE_34__pages_factura_factura__["a" /* FacturaPage */]
+            __WEBPACK_IMPORTED_MODULE_8__pages_bodega_bodega__["a" /* BodegaPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_editarcortador_editarcortador__["a" /* EditarcortadorPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_articulo_articulo__["a" /* ArticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_listaarticulo_listaarticulo__["a" /* ListaarticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_articulomodificar_articulomodificar__["a" /* ArticulomodificarPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_editararticulo_editararticulo__["a" /* EditararticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_creararticulo_creararticulo__["a" /* CreararticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_categoria_categoria__["a" /* CategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_listainventario_listainventario__["a" /* ListainventarioPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_proveedor_proveedor__["a" /* ProveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_21__pages_listaproveedor_listaproveedor__["a" /* ListaproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_editarproveedor_editarproveedor__["a" /* EditarproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_23__pages_modificarproveedor_modificarproveedor__["a" /* ModificarproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_24__pages_crearproveedor_crearproveedor__["a" /* CrearproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_cliente_cliente__["a" /* ClientePage */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_crearcliente_crearcliente__["a" /* CrearclientePage */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_editarcliente_editarcliente__["a" /* EditarclientePage */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_listacliente_listacliente__["a" /* ListaclientePage */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_modificarcliente_modificarcliente__["a" /* ModificarclientePage */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_factura_factura__["a" /* FacturaPage */],
+            __WEBPACK_IMPORTED_MODULE_31__pages_empleados_empleados__["a" /* EmpleadosPage */],
+            __WEBPACK_IMPORTED_MODULE_32__pages_editarempleado_editarempleado__["a" /* EditarempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_33__pages_modificarempleado_modificarempleado__["a" /* ModificarempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_34__pages_crearempleado_crearempleado__["a" /* CrearempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_35__pages_listaempleado_listaempleado__["a" /* ListaempleadoPage */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1861,13 +1892,14 @@ AppModule = __decorate([
                     { loadChildren: '../pages/cliente/cliente.module#ClientePageModule', name: 'ClientePage', segment: 'cliente', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/factura/factura.module#FacturaPageModule', name: 'FacturaPage', segment: 'factura', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/ventas/ventas.module#VentasPageModule', name: 'VentasPage', segment: 'ventas', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/editarcortador/editarcortador.module#EditarcortadorPageModule', name: 'EditarcortadorPage', segment: 'editarcortador', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/eliminarcortador/eliminarcortador.module#EliminarcortadorPageModule', name: 'EliminarcortadorPage', segment: 'eliminarcortador', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/empleadocortador/empleadocortador.module#EmpleadocortadorPageModule', name: 'EmpleadocortadorPage', segment: 'empleadocortador', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/listacortadores/listacortadores.module#ListacortadoresPageModule', name: 'ListacortadoresPage', segment: 'listacortadores', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/empleados/empleados.module#EmpleadosPageModule', name: 'EmpleadosPage', segment: 'empleados', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/bodega/bodega.module#BodegaPageModule', name: 'BodegaPage', segment: 'bodega', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menuprincipa/menuprincipa.module#MenuprincipaPageModule', name: 'MenuprincipaPage', segment: 'menuprincipa', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/menuprincipa/menuprincipa.module#MenuprincipaPageModule', name: 'MenuprincipaPage', segment: 'menuprincipa', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/editarcortador/editarcortador.module#EditarcortadorPageModule', name: 'EditarcortadorPage', segment: 'editarcortador', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/crearempleado/crearempleado.module#CrearempleadoPageModule', name: 'CrearempleadoPage', segment: 'crearempleado', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/editarempleado/editarempleado.module#EditarempleadoPageModule', name: 'EditarempleadoPage', segment: 'editarempleado', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/listaempleado/listaempleado.module#ListaempleadoPageModule', name: 'ListaempleadoPage', segment: 'listaempleado', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/modificarempleado/modificarempleado.module#ModificarempleadoPageModule', name: 'ModificarempleadoPage', segment: 'modificarempleado', priority: 'low', defaultHistory: [] }
                 ]
             }),
         ],
@@ -1878,37 +1910,38 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__pages_menuprincipa_menuprincipa__["a" /* MenuprincipaPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_compras_compras__["a" /* ComprasPage */],
             __WEBPACK_IMPORTED_MODULE_7__pages_ventas_ventas__["a" /* VentasPage */],
-            __WEBPACK_IMPORTED_MODULE_8__pages_empleados_empleados__["a" /* EmpleadosPage */],
-            __WEBPACK_IMPORTED_MODULE_9__pages_bodega_bodega__["a" /* BodegaPage */],
-            __WEBPACK_IMPORTED_MODULE_10__pages_listacortadores_listacortadores__["a" /* ListacortadoresPage */],
-            __WEBPACK_IMPORTED_MODULE_11__pages_empleadocortador_empleadocortador__["a" /* EmpleadocortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_12__pages_editarcortador_editarcortador__["a" /* EditarcortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_13__pages_eliminarcortador_eliminarcortador__["a" /* EliminarcortadorPage */],
-            __WEBPACK_IMPORTED_MODULE_14__pages_articulo_articulo__["a" /* ArticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_15__pages_listaarticulo_listaarticulo__["a" /* ListaarticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_16__pages_articulomodificar_articulomodificar__["a" /* ArticulomodificarPage */],
-            __WEBPACK_IMPORTED_MODULE_17__pages_editararticulo_editararticulo__["a" /* EditararticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_18__pages_creararticulo_creararticulo__["a" /* CreararticuloPage */],
-            __WEBPACK_IMPORTED_MODULE_19__pages_categoria_categoria__["a" /* CategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_20__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_21__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_22__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
-            __WEBPACK_IMPORTED_MODULE_23__pages_listainventario_listainventario__["a" /* ListainventarioPage */],
-            __WEBPACK_IMPORTED_MODULE_24__pages_proveedor_proveedor__["a" /* ProveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_25__pages_listaproveedor_listaproveedor__["a" /* ListaproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_26__pages_editarproveedor_editarproveedor__["a" /* EditarproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_27__pages_modificarproveedor_modificarproveedor__["a" /* ModificarproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_28__pages_crearproveedor_crearproveedor__["a" /* CrearproveedorPage */],
-            __WEBPACK_IMPORTED_MODULE_29__pages_cliente_cliente__["a" /* ClientePage */],
-            __WEBPACK_IMPORTED_MODULE_30__pages_crearcliente_crearcliente__["a" /* CrearclientePage */],
-            __WEBPACK_IMPORTED_MODULE_31__pages_editarcliente_editarcliente__["a" /* EditarclientePage */],
-            __WEBPACK_IMPORTED_MODULE_32__pages_listacliente_listacliente__["a" /* ListaclientePage */],
-            __WEBPACK_IMPORTED_MODULE_33__pages_modificarcliente_modificarcliente__["a" /* ModificarclientePage */],
-            __WEBPACK_IMPORTED_MODULE_34__pages_factura_factura__["a" /* FacturaPage */]
+            __WEBPACK_IMPORTED_MODULE_8__pages_bodega_bodega__["a" /* BodegaPage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_editarcortador_editarcortador__["a" /* EditarcortadorPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_articulo_articulo__["a" /* ArticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_listaarticulo_listaarticulo__["a" /* ListaarticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_articulomodificar_articulomodificar__["a" /* ArticulomodificarPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_editararticulo_editararticulo__["a" /* EditararticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_creararticulo_creararticulo__["a" /* CreararticuloPage */],
+            __WEBPACK_IMPORTED_MODULE_15__pages_categoria_categoria__["a" /* CategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_16__pages_crearcategoria_crearcategoria__["a" /* CrearcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_17__pages_listacategoria_listacategoria__["a" /* ListacategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_18__pages_editarcategoria_editarcategoria__["a" /* EditarcategoriaPage */],
+            __WEBPACK_IMPORTED_MODULE_19__pages_listainventario_listainventario__["a" /* ListainventarioPage */],
+            __WEBPACK_IMPORTED_MODULE_20__pages_proveedor_proveedor__["a" /* ProveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_21__pages_listaproveedor_listaproveedor__["a" /* ListaproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_22__pages_editarproveedor_editarproveedor__["a" /* EditarproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_23__pages_modificarproveedor_modificarproveedor__["a" /* ModificarproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_24__pages_crearproveedor_crearproveedor__["a" /* CrearproveedorPage */],
+            __WEBPACK_IMPORTED_MODULE_25__pages_cliente_cliente__["a" /* ClientePage */],
+            __WEBPACK_IMPORTED_MODULE_26__pages_crearcliente_crearcliente__["a" /* CrearclientePage */],
+            __WEBPACK_IMPORTED_MODULE_27__pages_editarcliente_editarcliente__["a" /* EditarclientePage */],
+            __WEBPACK_IMPORTED_MODULE_28__pages_listacliente_listacliente__["a" /* ListaclientePage */],
+            __WEBPACK_IMPORTED_MODULE_29__pages_modificarcliente_modificarcliente__["a" /* ModificarclientePage */],
+            __WEBPACK_IMPORTED_MODULE_30__pages_factura_factura__["a" /* FacturaPage */],
+            __WEBPACK_IMPORTED_MODULE_31__pages_empleados_empleados__["a" /* EmpleadosPage */],
+            __WEBPACK_IMPORTED_MODULE_32__pages_editarempleado_editarempleado__["a" /* EditarempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_33__pages_modificarempleado_modificarempleado__["a" /* ModificarempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_34__pages_crearempleado_crearempleado__["a" /* CrearempleadoPage */],
+            __WEBPACK_IMPORTED_MODULE_35__pages_listaempleado_listaempleado__["a" /* ListaempleadoPage */],
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_35__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_36__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_36__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_37__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
         ]
     })
@@ -1918,16 +1951,16 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(217);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1972,14 +2005,15 @@ var MyApp = (function () {
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]) === "function" && _a || Object)
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Gonzalo\proyectos\appoklesh\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Gonzalo\proyectos\appoklesh\src\app\app.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
 ], MyApp);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
@@ -2538,5 +2572,5 @@ ClientePage = __decorate([
 
 /***/ })
 
-},[222]);
+},[223]);
 //# sourceMappingURL=main.js.map

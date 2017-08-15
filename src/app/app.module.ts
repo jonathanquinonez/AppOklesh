@@ -7,12 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { MenuprincipaPage } from '../pages/menuprincipa/menuprincipa';
 import { ComprasPage } from '../pages/compras/compras';
 import { VentasPage } from '../pages/ventas/ventas';
-import { EmpleadosPage } from '../pages/empleados/empleados';
 import { BodegaPage } from '../pages/bodega/bodega';
-import { ListacortadoresPage } from '../pages/listacortadores/listacortadores';
-import { EmpleadocortadorPage } from '../pages/empleadocortador/empleadocortador';
 import { EditarcortadorPage } from '../pages/editarcortador/editarcortador';
-import { EliminarcortadorPage } from '../pages/eliminarcortador/eliminarcortador';
 import {ArticuloPage} from '../pages/articulo/articulo';
 import {ListaarticuloPage} from '../pages/listaarticulo/listaarticulo';
 import {ArticulomodificarPage} from '../pages/articulomodificar/articulomodificar';
@@ -38,6 +34,12 @@ import {ModificarclientePage} from '../pages/modificarcliente/modificarcliente';
 
 import {FacturaPage} from '../pages/factura/factura';
 
+import { EmpleadosPage } from '../pages/empleados/empleados';
+import {EditarempleadoPage} from '../pages/editarempleado/editarempleado';
+import {ModificarempleadoPage} from '../pages/modificarempleado/modificarempleado';
+import {CrearempleadoPage} from '../pages/crearempleado/crearempleado';
+import {ListaempleadoPage} from '../pages/listaempleado/listaempleado';
+
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -50,12 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MenuprincipaPage,
     ComprasPage,
     VentasPage,
-    EmpleadosPage,
     BodegaPage,
-    ListacortadoresPage,
-    EmpleadocortadorPage,
     EditarcortadorPage,
-    EliminarcortadorPage,
     ArticuloPage,
     ListaarticuloPage,
     ArticulomodificarPage,
@@ -79,7 +77,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListaclientePage,
     ModificarclientePage,
 
-    FacturaPage
+    FacturaPage,
+
+    EmpleadosPage,
+    EditarempleadoPage,
+    ModificarempleadoPage,
+    CrearempleadoPage,
+    ListaempleadoPage,
  
 
   ],
@@ -94,12 +98,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MenuprincipaPage,
     ComprasPage,
     VentasPage,
-    EmpleadosPage,
     BodegaPage,
-    ListacortadoresPage,
-    EmpleadocortadorPage,
     EditarcortadorPage,
-    EliminarcortadorPage,
     ArticuloPage,
     ListaarticuloPage,
     ArticulomodificarPage,
@@ -123,7 +123,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListaclientePage,
     ModificarclientePage,
 
-    FacturaPage
+    FacturaPage,
+
+    EmpleadosPage,
+    EditarempleadoPage,
+    ModificarempleadoPage,
+    CrearempleadoPage,
+    ListaempleadoPage,
    
 
     

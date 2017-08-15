@@ -1,5 +1,6 @@
 {
   "name": "oklesh2.0",
   "app_id": "c808e073",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {}
 }

@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 320:
+/***/ 309:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuprincipaPageModule", function() { return MenuprincipaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModificarclientePageModule", function() { return ModificarclientePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menuprincipa__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modificarcliente__ = __webpack_require__(117);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MenuprincipaPageModule = (function () {
-    function MenuprincipaPageModule() {
+var ModificarclientePageModule = (function () {
+    function ModificarclientePageModule() {
     }
-    return MenuprincipaPageModule;
+    return ModificarclientePageModule;
 }());
-MenuprincipaPageModule = __decorate([
+ModificarclientePageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__menuprincipa__["a" /* MenuprincipaPage */],
+            __WEBPACK_IMPORTED_MODULE_2__modificarcliente__["a" /* ModificarclientePage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__menuprincipa__["a" /* MenuprincipaPage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__modificarcliente__["a" /* ModificarclientePage */]),
         ],
     })
-], MenuprincipaPageModule);
+], ModificarclientePageModule);
 
-//# sourceMappingURL=menuprincipa.module.js.map
+//# sourceMappingURL=modificarcliente.module.js.map
 
 /***/ })
 

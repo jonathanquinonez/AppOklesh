@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 309:
+/***/ 321:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListaclientePageModule", function() { return ListaclientePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListaempleadoPageModule", function() { return ListaempleadoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listacliente__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listaempleado__ = __webpack_require__(221);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ListaclientePageModule = (function () {
-    function ListaclientePageModule() {
+var ListaempleadoPageModule = (function () {
+    function ListaempleadoPageModule() {
     }
-    return ListaclientePageModule;
+    return ListaempleadoPageModule;
 }());
-ListaclientePageModule = __decorate([
+ListaempleadoPageModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__listacliente__["a" /* ListaclientePage */],
+            __WEBPACK_IMPORTED_MODULE_2__listaempleado__["a" /* ListaempleadoPage */],
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listacliente__["a" /* ListaclientePage */]),
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listaempleado__["a" /* ListaempleadoPage */]),
         ],
     })
-], ListaclientePageModule);
+], ListaempleadoPageModule);
 
-//# sourceMappingURL=listacliente.module.js.map
+//# sourceMappingURL=listaempleado.module.js.map
 
 /***/ })
 
