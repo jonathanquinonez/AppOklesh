@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CrearempleadoPage} from '../crearempleado/crearempleado';
-
+import {ListaempleadoPage} from '../listaempleado/listaempleado';
 
 /**
  * Generated class for the EmpleadosPage page.
@@ -29,4 +29,11 @@ openCrearempleadoPage(){
 
   	this.navCtrl.push(CrearempleadoPage);
   }
+
+
+
+openListaempleadoPage(){
+
+	this.navCtrl.push(ListaempleadoPage);
+}
 }

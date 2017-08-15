@@ -13,6 +13,116 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="ion-content" padding>
 
+<form [formGroup]="myForm" (ngSubmit)="saveData()">
+      
+<div class="sesion">
+<fieldset >
+        <h1>Modificar Empleado</h1>  
+                  <ion-list>
+
+                  <ion-item>
+                     <ion-icon name="calendar" item-left></ion-icon>
+                     <ion-label stacked>Fecha de registro:</ion-label>
+                     <ion-datetime formControlName="dateBirth" displayFormat="DD-MM-YYYY" placeholder="DD-MM-YYY" value="12/12/2012"></ion-datetime>
+                     </ion-item>
+
+                     <br>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Nombre:</ion-label>
+                          <ion-input formControlName="name" type="text" placeholder="Nombre" value="Carlos"></ion-input>
+                        </ion-item> 
+                        <br>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Apellido:</ion-label>
+                          <ion-input formControlName="apellido" type="text" placeholder="Apellido" value="Caceres"></ion-input>
+                        </ion-item> 
+                        <br>
+
+                        <ion-item>
+                          <ion-icon name="log-out" item-left></ion-icon>
+                          <ion-label stacked>Cedula:</ion-label>
+                          <ion-input formControlName="cedula" type="number" placeholder="Cedula"  value="1092346123"></ion-input>
+                        </ion-item>
+                        <br>
+
+                        
+
+                        <ion-item>
+                         <ion-icon name="arrow-dropdown" item-left></ion-icon>
+                         <ion-label stacked>Tipo empleado:<br>
+                         <select class="selectt" >
+                          <option>Cortador</option>
+                          <option selected>Guarnecedor</option>
+                          <option>Soletero</option>
+                          <option>Limpiador</option>
+                         </select>
+                         </ion-label>
+                        </ion-item>
+                       
+                        <br>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Direccion:</ion-label>
+                          <ion-input formControlName="direccion" type="text" placeholder="Direccion" value="Jose Domingo" ></ion-input>
+                        </ion-item> 
+                        <br>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Barrio:</ion-label>
+                          <ion-input formControlName="barrio" type="text" placeholder="Barrio" value="Libertad"></ion-input>
+                        </ion-item> 
+                        <br>
+
+                        <ion-item>
+
+                          <ion-icon name="md-analytics" item-left></ion-icon>
+                          <ion-label stacked>Ciudad:</ion-label>
+                          <ion-input formControlName="ciudad" type="text" placeholder="Ciudad" value="Cucuta"></ion-input>
+                        </ion-item> 
+                        <br>
+
+                       
+
+                        <ion-item>
+                          <ion-icon name="log-out" item-left></ion-icon>
+                          <ion-label stacked>Telefono:</ion-label>
+                          <ion-input formControlName="telefono" type="number" placeholder="Telefono" value="3215431209"></ion-input>
+                        </ion-item>
+                        <br>
+
+
+                        <ion-item>
+                           <ion-icon name="mail" item-left></ion-icon>
+                           <ion-label stacked>Correo electronico:</ion-label>
+                           <ion-input formControlName="email" type="email" placeholder="Email" value="carlos@gmail.com"></ion-input>
+                        </ion-item>
+                        <br>
+
+
+                       
+ 
+               
+                  </ion-list>
+
+
+        <div padding>
+      <button ion-button block type="submit" [disabled]="!myForm.valid"  (click)="showAlert()">Guardar</button>
+    </div>
+</fieldset>
+</div>       
+
+
+</form>
 </ion-content>
