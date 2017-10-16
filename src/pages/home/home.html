@@ -1,26 +1,36 @@
 
 <body >
 <ion-content class="ion-content" padding>
-      
-<div class="sesion">
-<fieldset >
-        <h1> Iniciar Sesión </h1>  
-                  <ion-list>
 
-                        <ion-item>
+                <div class="imagen">
+               <img  src="../assets/img/oklesh.png"/>
+              </div>
+
+                  <ion-list class="sesion">
+
+                  
+
+                        <ion-item >
                           <ion-input type="text" placeholder="Username"></ion-input>
                         </ion-item> 
                         <br>
  
-                        <ion-item>
+                        <ion-item >
                           <ion-input type="password" placeholder="Password"></ion-input>
                         </ion-item>
 
+                        <br><br>
+
+                        <button ion-button button-positive (click)="openMenuprincipaPage()">Iniciar  Sesión</button>
+
+
+
+                        
                   </ion-list>
 
-        <button ion-button button-positive (click)="openMenuprincipaPage()">Iniciar  Sesión</button>
-</fieldset>
-</div>       
+                  <ion-item class="descc">
+                        <p class="descl">Descripcion de la empresa</p>
+                  </ion-item> 
 
 </ion-content>
 </body>

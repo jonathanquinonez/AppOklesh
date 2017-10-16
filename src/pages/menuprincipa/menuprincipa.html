@@ -5,33 +5,41 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>menuprincipa</ion-title>
-  </ion-navbar>
-
+	<ion-toolbar>
+		<ion-title>Menu</ion-title>
+	</ion-toolbar>
 </ion-header>
 
 
 <ion-content class="ion-content" padding>
 
-				<div class="div">
-		   <h1>Menu Principal</h1>
-		    
-		<div class="divmenu">
-			<div>
-		        <button class="botonmenu" ion-button button-positive (click)="openComprasPage()">Compras </button>
+	<div class="imagen">
+	 <img  src="../assets/img/oklesh.png"/>
+	</div>
+	<div class="div1">
+		
 
-		        <button class="botonmenu" ion-button button-positive (click)="openVentasPage()">Ventas</button>
-		    </div>    
-		    <br>
-		    <div>
-		        <button class="botonmenu" ion-button button-positive (click)="openEmpleadosPage()">Empleados</button>
+			<div class="div2">
+				<button class="botonmenu" ion-button button-positive (click)="openComprasPage()">Compras </button>
 
-		        <button class="botonmenu" ion-button button-positive (click)="openBodegaPage()">Bodega</button>
-		    </div>    
-		</div>
-		</div>
+				<button class="botonmenu" ion-button button-positive (click)="openVentasPage()">Ventas</button>
+			</div>    
+			<br>
+			<div class="div3">
+				<button class="botonmenu" ion-button button-positive (click)="openEmpleadosPage()">Empleados</button>
+
+				<button class="botonmenu" ion-button button-positive (click)="openBodegaPage()">Bodega</button>
+			</div>  
+		 
+	</div>
+
+	
+ 
+		
+
+		<div class="salir-div">
+    <button class="mi-div-abajo-derecha" ion-button color="danger" >Salir</button>
+  </div>
 
 
 </ion-content>

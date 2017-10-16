@@ -25287,14 +25287,16 @@ ion-navbar.toolbar {
   padding: 15px 30px;
 }
 
-.div {
+.div1 {
   background-repeat: no-repeat;
-  position: relative;
-  width: 85%;
-  height: 610px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -25306,7 +25308,43 @@ ion-navbar.toolbar {
 .botonmenu {
   width: 100px;
   height: 70px;
-  padding: 15px 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.icons-basic-page ion-icon {
+  font-size: 75px;
+}
+
+.icons-basic-page ion-row {
+  height: 100%;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.icons-basic-page ion-col {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.div2 {
+  margin-left: 45px;
+}
+
+.div3 {
+  margin-right: 45px;
+}
+
+.title {
+  top: 0%;
+  height: 0px;
+  text-align: center;
 }
 
 .sesion {
@@ -25529,12 +25567,10 @@ ion-navbar.toolbar {
 .sesion {
   background-repeat: no-repeat;
   position: relative;
-  width: 85%;
-  height: 610px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 30%;
+  width: 90%;
+  height: 350px;
   text-align: center;
+  top: 10%;
 }
 
 .ion-content {
@@ -25542,14 +25578,26 @@ ion-navbar.toolbar {
   -webkit-background-image: url("../assets/img/fondo.jpg");
 }
 
-.div {
+.descc {
+  top: 0%;
+  height: 90px;
+}
+
+.imagen {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.div1 {
   background-repeat: no-repeat;
-  position: relative;
-  width: 85%;
-  height: 610px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -25559,9 +25607,54 @@ ion-navbar.toolbar {
 }
 
 .botonmenu {
+  top: 50%;
   width: 100px;
   height: 70px;
-  padding: 15px 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.title {
+  top: 0%;
+  height: 0px;
+  text-align: center;
+}
+
+.ok {
+  font-size: 45pt;
+  height: 0px;
+  text-align: center;
+}
+
+.sh {
+  top: 0%;
+  text-align: right;
+  font-size: 45px;
+  width: 100%;
+  height: 50px;
+}
+
+.div2 {
+  margin-left: 45px;
+}
+
+.div3 {
+  margin-right: 45px;
+}
+
+.salir-div {
+  position: relative;
+}
+
+.mi-div-abajo-derecha {
+  position: absolute;
+  bottom: -230px;
+  right: 20px;
+}
+
+.imagen {
+  padding-top: 50px;
+  text-align: center;
 }
 
 .div {

@@ -7,29 +7,31 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>compras</ion-title>
+    <ion-title class="title">compras</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content class="ion-content" padding>
-	<div class="div">
+	<div class="div1">
 			<h1>Compras</h1>
-				<div>
-				<div>
+				
+				<div class="div2">
 			        <button class="botonmenu" ion-button button-positive (click)="openArticuloPage()">Articulo</button>
 
 			        <button class="botonmenu" ion-button button-positive (click)="openCategoriaPage()">Categorias</button>
 			    </div>    
 			    <br>
-			    <div>
+			    <div class="div3">
 			        <button class="botonmenu" ion-button button-positive (click)="openListainventarioPage()">Inventario</button>
 
 			        <button class="botonmenu" ion-button button-positive (click)="openProveedorPage()">Proveedores</button>
 			    </div>  
-			    </div>  
+			     
 			</div>
-
+	<div class="icons-basic-page">
+		 <ion-col><ion-icon name="arrow-back"></ion-icon></ion-col>
+	</div>
 
 </ion-content>

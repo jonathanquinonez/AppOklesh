@@ -1,12 +1,10 @@
-.div {
+.div1 {
 
  		background-repeat: no-repeat;        
-	    position: relative;        
-	    width: 85%;            
-	    height: 610px;       
-	    margin-left: auto;      
-	    margin-right: auto;  
-	    top:30%;
+	            
+	         display: flex;  
+	     
+	    justify-content:center;
 		text-align: center;
 
 }
@@ -19,7 +17,44 @@
 }
 .botonmenu {
 	
- 		width:100px;
+ 	width:100px;
 	height:70px;
-	padding: 15px 30px;
+	
+	text-align: center;
+	 
+  margin:10px
+	
+}
+.icons-basic-page {
+  ion-icon {
+    font-size: 75px;
+  }
+
+  ion-row {
+    height: 100%;
+    flex-wrap: wrap;
+  }
+
+  ion-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
+    padding: 10px 5px;
+  }
+}
+
+.div2{
+	
+	 margin-left:  45px;
+}
+.div3{
+	
+	margin-right:  45px;
+}
+
+.title{
+
+	top:0%;
+	height: 0px;
+	text-align: center;
 }
