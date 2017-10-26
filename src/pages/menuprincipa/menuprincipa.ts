@@ -4,6 +4,7 @@ import { ComprasPage } from '../compras/compras';
 import { VentasPage } from '../ventas/ventas';
 import { EmpleadosPage } from '../empleados/empleados';
 import { BodegaPage } from '../bodega/bodega';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the MenuprincipaPage page.
@@ -45,4 +46,10 @@ export class MenuprincipaPage {
 
   	this.navCtrl.push(BodegaPage);
   }
+
+openHomePage(){
+
+    this.navCtrl.push(HomePage);
+  }
+  
 }

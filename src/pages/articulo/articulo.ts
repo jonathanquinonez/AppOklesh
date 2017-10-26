@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ListaarticuloPage} from '../listaarticulo/listaarticulo';
 import {CreararticuloPage} from '../creararticulo/creararticulo';
-
-
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
+import { ComprasPage } from '../compras/compras';
 /**
  * Generated class for the ArticuloPage page.
  *
@@ -35,5 +35,13 @@ export class ArticuloPage {
   	this.navCtrl.push(CreararticuloPage);
 
   }
+  openMenuprincipaPage(){
 
+    this.navCtrl.push(MenuprincipaPage);
+  }
+
+ openComprasPage(){
+
+    this.navCtrl.push(ComprasPage);
+  }
 }

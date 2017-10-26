@@ -7,15 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title class="title">compras</ion-title>
+    <ion-title >compras</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content class="ion-content" padding>
+	<div class="imagen">
+	 <img  (click)="openMenuprincipaPage()" src="../assets/img/oklesh.png"/>
+	</div>
+	<h1 class="h1">Compras</h1>
 	<div class="div1">
-			<h1>Compras</h1>
+			
 				
 				<div class="div2">
 			        <button class="botonmenu" ion-button button-positive (click)="openArticuloPage()">Articulo</button>
@@ -29,9 +33,12 @@
 			        <button class="botonmenu" ion-button button-positive (click)="openProveedorPage()">Proveedores</button>
 			    </div>  
 			     
+		
 			</div>
-	<div class="icons-basic-page">
-		 <ion-col><ion-icon name="arrow-back"></ion-icon></ion-col>
-	</div>
+					<div class="div11">
+						     <div class="icons-basic-page salir-div">
+				 			<ion-col><ion-icon class="mi-div-abajo-derecha" name="arrow-back" (click)="openMenuprincipaPage()"></ion-icon></ion-col>
+							</div>
+					</div>
 
 </ion-content>

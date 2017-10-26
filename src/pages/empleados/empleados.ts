@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CrearempleadoPage} from '../crearempleado/crearempleado';
 import {ListaempleadoPage} from '../listaempleado/listaempleado';
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
+
 
 /**
  * Generated class for the EmpleadosPage page.
@@ -36,4 +38,14 @@ openListaempleadoPage(){
 
 	this.navCtrl.push(ListaempleadoPage);
 }
+
+ openEmpleadosPage(){
+
+    this.navCtrl.push(EmpleadosPage);
+  }
+
+    openMenuprincipaPage(){
+
+    this.navCtrl.push(MenuprincipaPage);
+  }
 }

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {ClientePage} from '../cliente/cliente';
 import {FacturaPage} from '../factura/factura';
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
 /**
  * Generated class for the VentasPage page.
  *
@@ -31,6 +32,10 @@ export class VentasPage {
   openFacturaPage(){
 
     this.navCtrl.push(FacturaPage);
+  }
+  openMenuprincipaPage(){
+
+    this.navCtrl.push(MenuprincipaPage);
   }
 
 }

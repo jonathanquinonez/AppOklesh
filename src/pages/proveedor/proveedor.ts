@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CrearproveedorPage} from '../crearproveedor/crearproveedor';
 import {ListaproveedorPage} from '../listaproveedor/listaproveedor';
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
+import { ComprasPage } from '../compras/compras';
 
 /**
  * Generated class for the ProveedorPage page.
@@ -36,6 +38,13 @@ export class ProveedorPage {
   	this.navCtrl.push(CrearproveedorPage);
   }
 
+openMenuprincipaPage(){
 
+    this.navCtrl.push(MenuprincipaPage);
+  }
+  openComprasPage(){
+
+    this.navCtrl.push(ComprasPage);
+  }
 
 }

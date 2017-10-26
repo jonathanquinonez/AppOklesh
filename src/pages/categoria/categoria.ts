@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {CrearcategoriaPage} from '../crearcategoria/crearcategoria';
 import {ListacategoriaPage} from '../listacategoria/listacategoria';
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
+import { ComprasPage } from '../compras/compras';
+
 
 /**
  * Generated class for the CategoriaPage page.
@@ -34,6 +37,13 @@ export class CategoriaPage {
     this.navCtrl.push(ListacategoriaPage);
   }
 
+openMenuprincipaPage(){
 
+    this.navCtrl.push(MenuprincipaPage);
+  }
+  openComprasPage(){
+
+    this.navCtrl.push(ComprasPage);
+  }
 
 }

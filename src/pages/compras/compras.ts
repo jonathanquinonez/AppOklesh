@@ -4,6 +4,7 @@ import {ArticuloPage} from '../articulo/articulo';
 import {CategoriaPage} from '../categoria/categoria';
 import {ListainventarioPage} from '../listainventario/listainventario';
 import {ProveedorPage} from '../proveedor/proveedor';
+import { MenuprincipaPage } from '../menuprincipa/menuprincipa';
 
 /**
  * Generated class for the ComprasPage page.
@@ -48,7 +49,8 @@ export class ComprasPage {
   }
 
 
+ openMenuprincipaPage(){
 
-
-
+    this.navCtrl.push(MenuprincipaPage);
+  }
 }
